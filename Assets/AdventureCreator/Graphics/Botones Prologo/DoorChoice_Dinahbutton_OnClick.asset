@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
+  m_Name: DoorChoice_Dinahbutton_OnClick
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 8455771962542104901}
+  - {fileID: 6012455270724170598}
+  - {fileID: 837841313003075287}
+  - {fileID: 6758154580772088973}
+  isSkippable: 1
+  actionListType: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  canRunMultipleInstances: 0
+  canSurviveSceneChanges: 0
+  revertToDefaultParametersAfterRunning: 0
+  parameters: []
+  tagID: 0
+--- !u!114 &837841313003075287
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b04ecc3c200434bdbae730cccfddb10a, type: 3}
+  m_Name: ActionFade(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 1
+  title: Fade
+  description: "Fades the camera in or out. The fade speed can be adjusted, as can
+    the overlay texture \u2013 this is black by default."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 1
+  endAction: 0
+  skipAction: 2
+  skipActionActual: {fileID: 837841313003075287}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 399
+    width: 300
+    height: 232
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  fadeType: 1
+  isInstant: 0
+  fadeSpeed: 2
+  fadeSpeedParameterID: -1
+  setTexture: 0
+  tempTexture: {fileID: 0}
+  tempTextureParameterID: -1
+  forceCompleteTransition: 1
+  cameraFadePauseBehaviour: 0
+  fadeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &6012455270724170598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387c24c00c16b447397110e033cf59f9, type: 3}
+  m_Name: ActionMusic(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 17
+  title: Play music
+  description: Plays or queues music clips.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 2
+  skipActionActual: {fileID: 837841313003075287}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 196
+    width: 300
+    height: 174
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  trackID: 0
+  trackIDParameterID: -1
+  fadeTime: 2
+  fadeTimeParameterID: -1
+  loop: 0
+  isQueued: 0
+  resumeFromStart: 1
+  resumeIfPlayedBefore: 0
+  willWaitComplete: 0
+  musicAction: 1
+  loopingOverlapTime: 0
+--- !u!114 &6758154580772088973
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d11677f69f745f88dbe9922511d53f, type: 3}
+  m_Name: ActionScene(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 16
+  title: Switch
+  description: 'Moves the Player to a new scene. The scene must be listed in Unity''s
+    Build Settings. By default, the screen will cut to black during the transition,
+    but the last frame of the current scene can instead be overlayed. This allows
+    for cinematic effects: if the next scene fades in, it will cause a crossfade
+    effect; if the next scene doesn''t fade, it will cause a straight cut.'
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 3
+  skipActionActual: {fileID: 6758154580772088973}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 661
+    width: 300
+    height: 248
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  chooseSceneBy: 1
+  sceneNumber: 0
+  sceneNumberParameterID: -1
+  sceneName: Dinah 1
+  sceneNameParameterID: -1
+  assignScreenOverlay: 0
+  onlyPreload: 0
+  relativePosition: 0
+  relativeMarker: {fileID: 0}
+  relativeMarkerID: 0
+  relativeMarkerParameterID: -1
+  forceReload: 0
+--- !u!114 &8455771962542104901
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: ActionMenuState
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 10
+  title: Change state
+  description: Provides various options to show and hide both menus and menu elements.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 0
+  skipActionActual: {fileID: 8455771962542104901}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: DoorChoice
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 1
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1

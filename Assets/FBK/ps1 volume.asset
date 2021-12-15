@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7294850223539975399
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f7b4b43d392da4aa0edc7aa47211ca, type: 3}
+  m_Name: QualityOverrideVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  isPSXQualityEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &-5901990623391830610
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd3a97acc7ef644da680b9eb611919e, type: 3}
+  m_Name: CathodeRayTubeVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  isEnabled:
+    m_OverrideState: 1
+    m_Value: 0
+  bloom:
+    m_OverrideState: 0
+    m_Value: 0.0625
+    min: 0
+    max: 1
+  grateMaskMode:
+    m_OverrideState: 0
+    m_Value: 0
+  grateMaskTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  grateMaskScale:
+    m_OverrideState: 0
+    m_Value: 1
+  scanlineSharpness:
+    m_OverrideState: 0
+    m_Value: 0.5
+    min: 0
+    max: 1
+  imageSharpness:
+    m_OverrideState: 0
+    m_Value: 0.5
+    min: 0
+    max: 1
+  bloomSharpnessX:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 1
+  bloomSharpnessY:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 1
+  noiseIntensity:
+    m_OverrideState: 0
+    m_Value: 0.1
+    min: 0
+    max: 1
+  noiseSaturation:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  grateMaskIntensityMin:
+    m_OverrideState: 0
+    m_Value: 0.25
+    min: 0
+    max: 1
+  grateMaskIntensityMax:
+    m_OverrideState: 0
+    m_Value: 0.75
+    min: 0
+    max: 1
+  barrelDistortionX:
+    m_OverrideState: 0
+    m_Value: 0.125
+    min: 0
+    max: 1
+  barrelDistortionY:
+    m_OverrideState: 0
+    m_Value: 0.33333334
+    min: 0
+    max: 1
+  vignette:
+    m_OverrideState: 0
+    m_Value: 0.5
+    min: 0
+    max: 1
+--- !u!114 &-4389298676876890235
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4315c5d81c1274fb8120ba49e62c21, type: 3}
+  m_Name: LightingVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  lightingIsEnabled:
+    m_OverrideState: 0
+    m_Value: 1
+  bakedLightingMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  vertexColorLightingMultiplier:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  dynamicLightingMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  dynamicLightsMaxCount:
+    m_OverrideState: 0
+    m_Value: 256
+    min: 1
+    max: 256
+  dynamicLightsMaxPerObjectCount:
+    m_OverrideState: 0
+    m_Value: 4
+    min: 1
+    max: 8
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: ps1 volume
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -7294850223539975399}
+  - {fileID: -5901990623391830610}
+  - {fileID: -4389298676876890235}
+  - {fileID: 8009138573822920653}
+--- !u!114 &8009138573822920653
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96575ff06efbe184aa6c6f9f90b4aab9, type: 3}
+  m_Name: FogVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  isEnabled:
+    m_OverrideState: 0
+    m_Value: 1
+  fogFalloffMode:
+    m_OverrideState: 0
+    m_Value: 0
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  precisionAlpha:
+    m_OverrideState: 0
+    m_Value: 1
+  precisionAlphaDitherTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 2800000, guid: 4a3e96c03e7d7c34a8fb8f59764f1945, type: 3}
+  precisionAlphaDither:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  distanceMin:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  distanceMax:
+    m_OverrideState: 1
+    m_Value: 10
+    min: 0.00001
+  fogFalloffCurve:
+    m_OverrideState: 1
+    m_Value: 0.23
+    min: -1
+    max: 1
+  heightFalloffEnabled:
+    m_OverrideState: 0
+    m_Value: 0
+  heightMin:
+    m_OverrideState: 0
+    m_Value: 0
+  heightMax:
+    m_OverrideState: 0
+    m_Value: 10
+  isAdditionalLayerEnabled:
+    m_OverrideState: 0
+    m_Value: 0
+  fogFalloffModeLayer1:
+    m_OverrideState: 0
+    m_Value: 0
+  colorLayer1:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  distanceMinLayer1:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  distanceMaxLayer1:
+    m_OverrideState: 0
+    m_Value: 100
+    min: 0.00001
+  fogFalloffCurveLayer1:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -1
+    max: 1
+  heightFalloffEnabledLayer1:
+    m_OverrideState: 0
+    m_Value: 0
+  heightMinLayer1:
+    m_OverrideState: 0
+    m_Value: 0
+  heightMaxLayer1:
+    m_OverrideState: 0
+    m_Value: 10

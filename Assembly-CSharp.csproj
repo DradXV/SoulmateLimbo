@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{9DCB7173-A9FF-2CB4-7C47-B6E70ABFA0AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_8;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>4.8.2.0</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>2019.4.8f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Unity\2019.4.8f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Unity\2019.4.8f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AdventureCreator\Demo\Scripts\Billboard.cs" />
+    <Compile Include="Assets\AdventureCreator\Downloads\Conversation camera\Scripts\ConversationCamera.cs" />
+    <Compile Include="Assets\AdventureCreator\Downloads\Conversation camera\Scripts\CustomActions\ActionConversationCamera.cs" />
+    <Compile Include="Assets\AdventureCreator\Downloads\Gabriel Knight conversations\GabrielKnightConversations.cs" />
+    <Compile Include="Assets\AdventureCreator\Downloads\Save game retro\Scripts\RepositionSaveInputBox.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Action.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActionCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActionCheckMultiple.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActionCheckMultipleTemplate.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActionCheckTemplate.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActionEnd.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActionList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActionListAsset.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActionParameter.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActionTemplate.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActionType.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ActiveList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\FavouriteActionData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\RuntimeActionList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\ScriptedActionListExample.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\SkipList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\iActionListAssetReferencer.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionAmbience.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionAnim.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionBlendShape.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCamera.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCameraCrossfade.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCameraShake.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCameraSplit.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCameraTP.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionChangeMaterial.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCharAnim.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCharFace.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCharFaceDirection.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCharFollow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCharHold.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCharMove.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCharPathFind.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCharPortrait.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCharRename.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCharRender.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCheckActionList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionCinemaDirector.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionComment.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionContainerCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionContainerOpen.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionContainerSet.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionConversation.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionDialogOption.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionDialogOptionRename.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionDocumentCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionDocumentCollection.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionDocumentOpen.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionEndGame.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionEvent.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionFade.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionFootstepSounds.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionHighlight.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionHotspotEnable.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInputActive.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInputCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInstantiate.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInteraction.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInteractionCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInvProperty.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventoryCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventoryCheckSelected.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventoryCrafting.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventorySelect.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventorySet.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionManageProfiles.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionManageSaves.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionMenuCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionMenuJournal.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionMenuSelect.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionMenuSetInputBox.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionMenuSlotCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionMenuState.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionMixerSnapshot.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionMoveableCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionMovie.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionMusic.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionNavMesh.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionObjectCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionObjectiveCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionObjectiveCheckType.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionObjectiveSet.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionOptionSet.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionParallel.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionParamCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionParamSet.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionParent.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionPause.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionPauseActionList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionPlatformCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionPlayMaker.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionPlayerCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionPlayerLock.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionPlayerSwitch.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionPlayerTeleportInactive.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionQTE.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionRandomCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionRename.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionRunActionList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSaveCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSaveHandle.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionScene.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSceneAdd.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSceneCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSceneCheckAttribute.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSceneSwitchPrevious.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSendMessage.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSound.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSoundShot.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSpeech.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSpeechStop.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSpeechWait.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSpriteFade.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionStopActionList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionSystemLock.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionTagCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionTeleport.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionTimeline.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionTimescale.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionTintMap.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionTrackCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionTrackRegion.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionTrackSet.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionTransform.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionTransformRecord.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionVarCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionVarCopy.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionVarPopup.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionVarPreset.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionVarSequence.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionVarSet.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionVisible.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionVisibleCheck.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionVolume.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionWaitMultiple.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Animation\AnimEngine.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Animation\AnimEngine_Legacy.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Animation\AnimEngine_Mecanim.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Animation\AnimEngine_Sprites2DToolkit.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Animation\AnimEngine_SpritesUnity.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Animation\AnimEngine_SpritesUnityComplex.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Animation\SpriteDirectionData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\BackgroundCamera.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\CursorInfluenceCamera.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\FirstPersonCamera.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\FollowTintMap.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\GameCamera.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\GameCamera25D.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\GameCamera2D.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\GameCamera2DDrag.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\GameCameraAnimated.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\GameCameraData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\GameCameraThirdPerson.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\MainCamera.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Timeline\CameraFadeMixer.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Timeline\CameraFadePlayableBehaviour.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Timeline\CameraFadeShot.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Timeline\CameraFadeTrack.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Timeline\MainCameraMixer.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Timeline\MainCameraPlayableBehaviour.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Timeline\MainCameraShot.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Timeline\MainCameraTrack.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\TintMap.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\_Camera.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Char.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\IK\IKCommand.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\IK\IKLimbController.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\NPC.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Player.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\PlayerPrefab.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Timeline\CharacterAnimation2DBehaviour.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Timeline\CharacterAnimation2DShot.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Timeline\CharacterAnimation2DTrack.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Timeline\HeadTurnMixer.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Timeline\HeadTurnPlayableBehaviour.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Timeline\HeadTurnShot.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Timeline\HeadTurnTrack.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Controls\PlayerCursor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Controls\PlayerInput.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Controls\PlayerInteraction.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Controls\PlayerMenus.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Controls\PlayerMovement.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Controls\PlayerQTE.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Documents\Document.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Documents\RuntimeDocuments.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Dont Destroy.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Game engine\IStateChange.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Game engine\KickStarter.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Game engine\LoadingScreen.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Game engine\MultiSceneChecker.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Game engine\SceneChanger.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Game engine\SceneInfo.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Game engine\SceneSettings.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Game engine\StateHandler.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Game engine\SubScene.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Input\ActiveInput.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\ContainerItem.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\Ingredient.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\InvActionList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\InvBin.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\InvCollection.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\InvInstance.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\InvInteraction.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\InvItem.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\InvItemExportWizardWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\InvItemImportWizardWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\InvVar.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\MatchingInvInteractionData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\Recipe.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\RuntimeInventory.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\SetInventoryInteractionParameters.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\AC_Trigger.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\ActionListStarter.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\ArrowPrompt.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Button.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\ButtonDialog.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Container.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Conversation.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Cutscene.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\DialogueOption.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Hotspot.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Interaction.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\SetInteractionParameters.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\SetParametersBase.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\SetTriggerParameters.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Sound.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\ActionListAssetManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\ActionListManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\ActionsManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\ConstantIDManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\CursorManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\EventManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\InventoryManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\ManagerPackage.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\MenuManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\NavigationManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\PlayerStartDataEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\References.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\SaveFileManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\SceneAttributesWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\SceneManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\SettingsManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\SpeechManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\VariablesManager.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\AutoCorrectUIDimensions.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\CursorIcon.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\Menu.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuButton.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuCrafting.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuCycle.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuDialogList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuDrag.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuElement.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuGraphic.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuInput.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuInteraction.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuInventoryBox.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuJournal.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuLabel.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuProfilesList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuSavesList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuSlider.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuTimer.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\MenuToggle.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\UISlot.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\UISlotClick.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Menu classes\UISlotClickRight.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\MenuActionList.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\MenuPreview.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\MenuSystem.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\MousewheelScrollingUI.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\OptionalMouseInputModule.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\DragBase.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\DragTrack.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\DragTrack_Curved.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\DragTrack_Hinge.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\DragTrack_Straight.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\HeldObjectData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\JointBreaker.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Moveable_Drag.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Moveable_PickUp.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\TrackSnapConnection.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\TrackSnapData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\ClickMarker.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\FollowSortingMap.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\FootstepSounds.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Marker.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\NavMeshBase.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\NavMeshSegment.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\NavigationEngine.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\NavigationEngine_PolygonCollider.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\NavigationEngine_UnityNavigation.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\NavigationEngine_meshCollider.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\NavigationMesh.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Paths.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\PlayerStart.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\SortingArea.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\SortingMap.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\StaticObstacle.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\_Collision.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\AlignToCamera.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\BackgroundImage.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\BackgroundImageUI.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\DetectHotspots.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\Highlight.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\InteractiveBoundary.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\Invisible.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\LightSwitch.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\LimitVisibility.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\MenuLink.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\Moveable.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\Parallax2D.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\ParticleSwitch.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\Shapeable.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\SpriteFader.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Objectives\Objective.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Objectives\ObjectiveInstance.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Objectives\ObjectiveState.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Objectives\RuntimeObjectives.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Options\Options.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Options\OptionsData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Options\OptionsFileHandler_PlayerPrefs.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Options\OptionsFileHandler_SystemFile.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Options\iOptionsFileHandler.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\ConstantID.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\FileFormat\FileFormatHandler_Binary.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\FileFormat\FileFormatHandler_Json.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\FileFormat\FileFormatHandler_Xml.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\FileFormat\iFileFormatHandler.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\FileHandling\SaveFile.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\FileHandling\SaveFileHandler_PlayerPrefs.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\FileHandling\SaveFileHandler_SystemFile.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\FileHandling\iSaveFileHandler.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\ISave.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\LevelStorage.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\PlayerData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberActionListParameters.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberAnimator.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberCollider.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberContainer.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberConversation.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberFootstepSounds.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberHotspot.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberMaterial.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberMoveable.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberNPC.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberName.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberNavMesh2D.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberParticleSystem.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberShapeable.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberSound.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberTimeline.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberTrack.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberTransform.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberTrigger.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberVariables.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberVideoPlayer.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\RememberVisibility.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\SaveData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\SaveSystem.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\SelectiveLoad.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\Serializer.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\SliderValueChange.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Sound\Ambience.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Sound\AmbienceStorageWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Sound\Music.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Sound\MusicCrossfade.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Sound\MusicStorage.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Sound\MusicStorageWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Sound\Soundtrack.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Sound\SoundtrackStorageWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\AutoLipSync.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\CustomTranslatableExample.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\Dialog.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\ExportWizardWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\Expression.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\ITranslatable.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\ImportWizardWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\LipSyncTexture.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\PhonemesWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\RuntimeLanguages.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\ScriptSheetWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\Speech.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\SpeechLine.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\SpeechTagsWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\Timeline\SpeechPlayableBehaviour.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\Timeline\SpeechPlayableClip.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\Timeline\SpeechPlayableData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\Timeline\SpeechPlayableMixer.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Speech\Timeline\SpeechTrack.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\SpriteAnim.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\ACDebug.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\ACScreen.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\AdvGame.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\AssetLoader.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\CSVReader.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\ClickByHoveringCursorExample.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\CustomAssetUtility.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\CustomGUILayout.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\CustomInteractionSystemExample.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\DrawStraightLine.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\Enums.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\FaceFXIntegration.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\GameObjectExtensions.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\GlobalVariables.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\LerpUtils.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\NavMeshAgentIntegration.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\OuyaIntegration.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\PlayMakerIntegration.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\Resource.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\RogoLipSyncIntegration.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\StatusBox.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\Tags.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\UltimateFPSIntegration.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\UnityVersionHandler.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\WorldSpaceCursorExample.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Static\tk2DIntegration.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\AutoCreateVariableWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\BulkCreateVarsWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\CustomToken.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\GVar.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\LocalVariables.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\PopUpLabelData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\PopupSelectData.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\RuntimeVariables.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\VarExportWizardWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\VarPreset.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\VariableLinkingExample.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Variables\Variables.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\journalpopupfadeout.cs" />
+    <None Include="Assets\AdventureCreator\Downloads\Gabriel Knight conversations\Graphics\gabriel-knight-dialog-small\readme.txt" />
+    <None Include="Assets\AdventureCreator\Downloads\Gabriel Knight conversations\Graphics\portraits\license.txt" />
+    <None Include="Assets\AdventureCreator\Graphics\Fonts\SIL Open Font License.txt" />
+    <None Include="Assets\AdventureCreator\Downloads\Gabriel Knight conversations\Graphics\gabriel-knight-dialog-small\license.txt" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>D:/Unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.hauntedpsx.render-pipelines.psx.Runtime">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/com.hauntedpsx.render-pipelines.psx.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.hauntedpsx.render-pipelines.psx.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/com.hauntedpsx.render-pipelines.psx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/Soulmate Limbo/Soulmate Limbo 1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup></ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

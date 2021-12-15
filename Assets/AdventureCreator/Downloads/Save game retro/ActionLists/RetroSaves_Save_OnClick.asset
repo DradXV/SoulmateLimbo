@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
+  m_Name: RetroSaves_Save_OnClick
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11456452}
+  - {fileID: 11445398}
+  - {fileID: 11468720}
+  isSkippable: 1
+  actionListType: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  canRunMultipleInstances: 0
+  canSurviveSceneChanges: 0
+  revertToDefaultParametersAfterRunning: 0
+  parameters: []
+  tagID: 0
+--- !u!114 &11445398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 18
+  title: Set
+  description: Sets the value of both Global and Local Variables, as declared in
+    the Variables Manager. Integers can be set to absolute, incremented or assigned
+    a random value. Strings can also be set to the value of a MenuInput element,
+    while Integers, Booleans and Floats can also be set to the value of a Mecanim
+    parameter. When setting Integers and Floats, you can also opt to type in a forumla
+    (e.g. 2 + 3 *4), which can also include tokens of the form [var:ID] to denote
+    the value of a Variable, where ID is the unique number given to a Variable in
+    the Variables Manager.
+  isDisplayed: 1
+  showComment: 1
+  comment: Store the Input box's text into a Global Variable
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 2
+  skipActionActual: {fileID: 11468720}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 210
+    width: 300
+    height: 202
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  setVarMethod: 0
+  setVarMethodString: 1
+  setVarMethodIntBool: 0
+  setVarMethodVector: 0
+  parameterID: -1
+  variableID: 1
+  variableNumber: 1
+  setParameterID: -1
+  slotNumber: 0
+  slotNumberParameterID: -1
+  intValue: 0
+  floatValue: 0
+  boolValue: 0
+  stringValue: 
+  formula: 
+  vector3Value: {x: 0, y: 0, z: 0}
+  lineID: -1
+  location: 0
+  menuName: RetroSaves
+  elementName: Input
+  animator: {fileID: 0}
+  parameterName: 
+  variables: {fileID: 0}
+  variablesConstantID: 0
+  placeholderType: 0
+  placeholderPopUpLabelDataID: -1
+--- !u!114 &11456452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 10
+  title: Change state
+  description: Provides various options to show and hide both menus and menu elements.
+  isDisplayed: 1
+  showComment: 1
+  comment: Turn off the Menu before saving.
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 11445398}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 166
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: SaveInput
+  menuToChangeParameterID: -1
+  elementToChange: Input
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
+--- !u!114 &11468720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8f1d4326fcb445e90d9c53b7029b18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 14
+  title: Save or load
+  description: Saves and loads save-game files
+  isDisplayed: 1
+  showComment: 1
+  comment: Save the game with the ID and label data stored as Global Variable
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 0
+  skipActionActual: {fileID: 11456452}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 442
+    width: 300
+    height: 267
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  saveHandling: 2
+  selectSaveType: 2
+  saveIndex: 0
+  saveIndexParameterID: -1
+  varID: 1
+  slotVarID: 0
+  menuName: RetroSaves
+  elementName: SaveList
+  updateLabel: 1
+  customLabel: 1
+  doSelectiveLoad: 0
+  selectiveLoad:
+    loadVariables: 1
+    loadInventory: 1
+    loadPlayer: 1
+    loadScene: 1
+    loadSubScenes: 1
+    loadSceneObjects: 1

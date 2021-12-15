@@ -1,0 +1,606 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5a2543a119f842959d20e84db3140dd, type: 3}
+  m_Name: SoulmateLimboPrueba_InventoryManager
+  m_EditorClassIdentifier: 
+  items:
+  - label: Feather
+    id: 1
+    altLabel: Feather
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: BadGift
+      id: 1
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 52ce14621698520418c126271bcb7c0a, type: 3}
+    activeTex: {fileID: 2800000, guid: 52ce14621698520418c126271bcb7c0a, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: BoxofChocolates
+    id: 0
+    altLabel: Box of chocolates
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: BadGift
+      id: 1
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 2c691c991d0df2743a98eabdd486349e, type: 3}
+    activeTex: {fileID: 2800000, guid: 2c691c991d0df2743a98eabdd486349e, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: WingedPen
+    id: 2
+    altLabel: Winged Pen
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 6b4ee9eacf819f64499b28b26ea01045, type: 3}
+    activeTex: {fileID: 2800000, guid: 6b4ee9eacf819f64499b28b26ea01045, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: BunnyPlushie
+    id: 3
+    altLabel: Bunny plushie
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 4d072c6b9eb659642a2f9e8110cb5e55, type: 3}
+    activeTex: {fileID: 2800000, guid: 4d072c6b9eb659642a2f9e8110cb5e55, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: PlasticFlower
+    id: 4
+    altLabel: Plastic Flower
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 59685bf209d9bea448431dd03dada5c9, type: 3}
+    activeTex: {fileID: 2800000, guid: 59685bf209d9bea448431dd03dada5c9, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Sticker
+    id: 5
+    altLabel: Sticker
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 44ec2d71f11d38d4b93d4f3552cb8cfe, type: 3}
+    activeTex: {fileID: 2800000, guid: 44ec2d71f11d38d4b93d4f3552cb8cfe, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: StarHairpin
+    id: 6
+    altLabel: Star Hairpin
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: ec0fdd158e9f88244a23877f66312d00, type: 3}
+    activeTex: {fileID: 2800000, guid: ec0fdd158e9f88244a23877f66312d00, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: NailPolish
+    id: 7
+    altLabel: Nail polish
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 410178bc912de4b4ea8adc31d760a427, type: 3}
+    activeTex: {fileID: 2800000, guid: 410178bc912de4b4ea8adc31d760a427, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: MutantBag
+    id: 8
+    altLabel: Mutant bag
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 5845fd1a41626de4bad85ddeb0485007, type: 3}
+    activeTex: {fileID: 2800000, guid: 5845fd1a41626de4bad85ddeb0485007, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: DeliveryBag
+    id: 9
+    altLabel: Delivery bag
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 7ca8850f01544b445a18f5c0f09bcd07, type: 3}
+    activeTex: {fileID: 2800000, guid: 7ca8850f01544b445a18f5c0f09bcd07, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  bins:
+  - label: GoodGift
+    id: 0
+  - label: BadGift
+    id: 1
+  invVars: []
+  unhandledCombine: {fileID: 0}
+  unhandledHotspot: {fileID: 0}
+  passUnhandledHotspotAsParameter: 0
+  unhandledGive: {fileID: 0}
+  recipes: []
+  documents: []
+  objectives: []
