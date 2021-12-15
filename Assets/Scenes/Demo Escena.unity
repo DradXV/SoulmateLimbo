@@ -10773,7 +10773,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: You too?
+  messageText: '"You too?"'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
