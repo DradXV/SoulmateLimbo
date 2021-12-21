@@ -41,7 +41,7 @@ Material:
     - _AffineTextureWarpingWeight: 0
     - _AlphaClip: 0
     - _AlphaClippingDitherIsEnabled: 0
-    - _Blend: 0
+    - _Blend: 3
     - _BlendOp: 0
     - _ColorMask: 15
     - _Cull: 2
