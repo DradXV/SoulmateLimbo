@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Demo Escena.unity
+- path: Assets/Scenes/Cassiel 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
