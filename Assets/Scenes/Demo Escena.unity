@@ -5347,7 +5347,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 2080911070486370671}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 1118975544}
+  editingAnimEngine: {fileID: 1764312434}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 1891426222}
@@ -10653,20 +10653,6 @@ MonoBehaviour:
   interactionType: 0
   changeType: 1
   number: 0
---- !u!114 &1118975544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &1119417991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16132,6 +16118,20 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1764312434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1774947074
 MonoBehaviour:
   m_ObjectHideFlags: 0
