@@ -1109,6 +1109,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3692082824125534853, guid: b8c25f2d9d88830448ed84556167467b,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692082824125534853, guid: b8c25f2d9d88830448ed84556167467b,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1712487107}
+    - target: {fileID: 3692082824125534853, guid: b8c25f2d9d88830448ed84556167467b,
+        type: 3}
+      propertyPath: m_PlaneDistance
+      value: 136.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692082824125534853, guid: b8c25f2d9d88830448ed84556167467b,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7254407992238990619, guid: b8c25f2d9d88830448ed84556167467b,
         type: 3}
       propertyPath: m_Name
@@ -1398,7 +1418,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737744008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 251, y: 0, z: -234}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1323382967}

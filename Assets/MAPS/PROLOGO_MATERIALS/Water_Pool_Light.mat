@@ -9,14 +9,14 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Water_Pool_Light
   m_Shader: {fileID: 4800000, guid: 055eab4e84dc70a47ae75b3125a22de6, type: 3}
-  m_ShaderKeywords: _FOG_ON _LIGHTING_BAKED_ON _LIGHTING_DYNAMIC_ON _SHADING_EVALUATION_MODE_PER_VERTEX
-    _TEXTURE_FILTER_MODE_TEXTURE_IMPORT_SETTINGS
+  m_ShaderKeywords: _ALPHAMODULATE_ON _BLENDMODE_TONEMAPPER_OFF _FOG_ON _LIGHTING_BAKED_ON
+    _LIGHTING_DYNAMIC_ON _SHADING_EVALUATION_MODE_PER_VERTEX _TEXTURE_FILTER_MODE_TEXTURE_IMPORT_SETTINGS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 3000
   stringTagMap:
-    RenderType: Opaque
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -41,9 +41,9 @@ Material:
     - _AffineTextureWarpingWeight: 1
     - _AlphaClip: 0
     - _AlphaClippingDitherIsEnabled: 0
-    - _Blend: 0
+    - _Blend: 3
     - _BlendOp: 0
-    - _ColorMask: 15
+    - _ColorMask: 14
     - _Cull: 2
     - _DoubleSidedNormalMode: 0
     - _DrawDistanceOverrideMode: 0
@@ -58,11 +58,11 @@ Material:
     - _ReflectionBlendMode: 0
     - _RenderQueueCategory: 0
     - _ShadingEvaluationMode: 0
-    - _SrcBlend: 1
-    - _Surface: 0
+    - _SrcBlend: 2
+    - _Surface: 1
     - _TextureFilterMode: 0
     - _VertexColorMode: 0
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
     - _AlphaClippingScaleBiasMinMax: {r: 1, g: 0, b: 0, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}

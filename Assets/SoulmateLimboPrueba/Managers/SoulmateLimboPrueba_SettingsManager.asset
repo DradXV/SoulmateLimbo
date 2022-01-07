@@ -191,6 +191,9 @@ MonoBehaviour:
   - ID: 1
     audioClip: {fileID: 8300000, guid: ee7f3e83503f32d44adb703a81bc1a14, type: 3}
     relativeVolume: 1
+  - ID: 2
+    audioClip: {fileID: 8300000, guid: 4f31aa4bf46020b40a9d7312521e87ce, type: 3}
+    relativeVolume: 1
   loadAmbienceFadeTime: 1
   crossfadeAmbienceWhenLoading: 1
   restartAmbienceTrackWhenLoading: 1
