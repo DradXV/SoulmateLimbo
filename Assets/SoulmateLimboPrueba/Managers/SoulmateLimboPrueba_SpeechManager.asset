@@ -28,7 +28,7 @@ MonoBehaviour:
   allowSpeechSkipping: 0
   allowGameplaySpeechSkipping: 0
   skipThresholdTime: 0
-  endScrollBeforeSkip: 0
+  endScrollBeforeSkip: 1
   scrollingTextFactorsLength: 0
   syncSubtitlesToAudio: 0
   useAssetBundles: 0
