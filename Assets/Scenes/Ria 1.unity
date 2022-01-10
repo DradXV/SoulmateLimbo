@@ -475,46 +475,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &74219885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: Wait
-  m_EditorClassIdentifier: 
-  id: 1
-  category: 6
-  title: Wait
-  description: Waits a set time before continuing.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 1
-  skipAction: 62
-  skipActionActual: {fileID: 1308135850}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 290
-    y: 3983.5996
-    width: 300
-    height: 92
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 4709920941263539716}
-  parameterID: -1
-  timeToPause: 0
 --- !u!114 &79055228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2325,6 +2285,20 @@ Transform:
   m_Father: {fileID: 500338367}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &233649631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &238139056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3088,7 +3062,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   - resultAction: 2
     skipAction: 48
-    skipActionActual: {fileID: 2140506796}
+    skipActionActual: {fileID: 753989793}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   parameterID: -1
@@ -5440,8 +5414,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 61
-  skipActionActual: {fileID: 74219885}
+  skipAction: 19
+  skipActionActual: {fileID: 378235909}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -8162,7 +8136,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 105
-  skipActionActual: {fileID: 1468042577}
+  skipActionActual: {fileID: 2119863507}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -9220,8 +9194,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 9
-    y: 2838.5999
+    x: 4
+    y: 2889.5999
     width: 300
     height: 192.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9490,67 +9464,6 @@ MonoBehaviour:
   playerID: -1
   speaker: {fileID: 667598388}
   messageText: "\u201CHelp\u2026?\u201D"
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
---- !u!114 &953923432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 40
-  skipActionActual: {fileID: 1038632431}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 331
-    y: 9333.396
-    width: 300
-    height: 241
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 0
-  playerID: -1
-  speaker: {fileID: 667598388}
-  messageText: "\u201CNo one lives here, so\u2026 choose any room you like, and make
-    yourself at home...\u201D"
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -9980,7 +9893,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 62
+  skipAction: 61
   skipActionActual: {fileID: 876844223}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -10247,9 +10160,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 1
-  skipAction: 61
-  skipActionActual: {fileID: 74219885}
+  endAction: 2
+  skipAction: 12
+  skipActionActual: {fileID: 185505578}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -10260,7 +10173,7 @@ MonoBehaviour:
     x: 316
     y: 2846.5999
     width: 300
-    height: 172.2
+    height: 192.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4709920941263539716}
@@ -10810,20 +10723,6 @@ MonoBehaviour:
   copyRotation: 0
   variables: {fileID: 0}
   variablesConstantID: 0
---- !u!114 &1091831254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &1094618594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11326,7 +11225,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 7984.4014
+    y: 7994.4014
     width: 300
     height: 201
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11484,7 +11383,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 63
+  skipAction: 62
   skipActionActual: {fileID: 1387761584}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -11780,66 +11679,6 @@ MonoBehaviour:
   lineID: -1
   journalPageIndex: -1
   journalPageIndexParameterID: -1
---- !u!114 &1193992697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: 65
-  skipActionActual: {fileID: 953923432}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 330
-    y: 9122.396
-    width: 300
-    height: 192.2
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 0
-  playerID: -1
-  speaker: {fileID: 667598388}
-  messageText: '"It is right here to your left."'
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!114 &1197920269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12369,66 +12208,6 @@ MonoBehaviour:
   playerID: -1
   speaker: {fileID: 667598388}
   messageText: "\u201CI\u2026 didn\u2019t mean to scare you.\u201D"
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
---- !u!114 &1308135850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 36
-  skipActionActual: {fileID: 1136567401}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 351
-    y: 7728.448
-    width: 300
-    height: 212.2
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 0
-  playerID: -1
-  speaker: {fileID: 667598388}
-  messageText: "\u201CThere is a place you can stay at.\u201D"
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -13458,8 +13237,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 64
-  skipActionActual: {fileID: 1193992697}
+  skipAction: 63
+  skipActionActual: {fileID: 1545805932}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -13996,7 +13775,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 66
+  skipAction: 65
   skipActionActual: {fileID: 791690495}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -14315,81 +14094,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &1468042577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e71317434ca91481a8e97d91e89df8c0, type: 3}
-  m_Name: ActionCharAnim
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 2
-  title: Animate
-  description: Affects a Character's animation. Can play or stop a custom animation,
-    change a standard animation (idle, walk or run), change a footstep sound, or
-    revert the Character to idle.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 1035.8057
-    y: 17303.387
-    width: 300
-    height: 192
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  parameterID: -1
-  constantID: 0
-  editingAnimEngine: {fileID: 1091831254}
-  isPlayer: 0
-  playerID: -1
-  animChar: {fileID: 667598388}
-  clip: {fileID: 0}
-  clip2D: 
-  clip2DParameterID: -1
-  method: 0
-  blendMode: 0
-  layer: 0
-  standard: 0
-  includeDirection: 0
-  changeSound: 0
-  newSound: {fileID: 0}
-  newSoundParameterID: -1
-  newSpeedParameterID: -1
-  layerInt: 0
-  idleAfter: 1
-  idleAfterCustom: 0
-  playMode: 0
-  playModeBase: 1
-  fadeTime: 0
-  changeSpeed: 0
-  newSpeed: 0
-  methodMecanim: 0
-  mecanimCharParameter: 0
-  mecanimParameterType: 0
-  parameterName: 
-  parameterNameID: -1
-  parameterValue: 1
-  parameterValueParameterID: -1
-  hideHead: 0
-  doLoop: 0
 --- !u!1 &1476591583
 GameObject:
   m_ObjectHideFlags: 0
@@ -14838,8 +14542,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 65
-  skipActionActual: {fileID: 953923432}
+  skipAction: 64
+  skipActionActual: {fileID: 648054881}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -19556,6 +19260,81 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &2119863507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e71317434ca91481a8e97d91e89df8c0, type: 3}
+  m_Name: ActionCharAnim
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Animate
+  description: Affects a Character's animation. Can play or stop a custom animation,
+    change a standard animation (idle, walk or run), change a footstep sound, or
+    revert the Character to idle.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 1035.8057
+    y: 17303.387
+    width: 300
+    height: 192
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1955908843288390997}
+  parameterID: -1
+  constantID: 0
+  editingAnimEngine: {fileID: 233649631}
+  isPlayer: 0
+  playerID: -1
+  animChar: {fileID: 667598388}
+  clip: {fileID: 0}
+  clip2D: 
+  clip2DParameterID: -1
+  method: 0
+  blendMode: 0
+  layer: 0
+  standard: 0
+  includeDirection: 0
+  changeSound: 0
+  newSound: {fileID: 0}
+  newSoundParameterID: -1
+  newSpeedParameterID: -1
+  layerInt: 0
+  idleAfter: 1
+  idleAfterCustom: 0
+  playMode: 0
+  playModeBase: 1
+  fadeTime: 0
+  changeSpeed: 0
+  newSpeed: 0
+  methodMecanim: 0
+  mecanimCharParameter: 0
+  mecanimParameterType: 2
+  parameterName: Ria_pointin
+  parameterNameID: -1
+  parameterValue: 1
+  parameterValueParameterID: -1
+  hideHead: 0
+  doLoop: 0
 --- !u!114 &2136447587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20948,7 +20727,7 @@ MonoBehaviour:
   - {fileID: 179442022}
   - {fileID: 373026811}
   - {fileID: 84760352}
-  - {fileID: 1468042577}
+  - {fileID: 2119863507}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -22333,7 +22112,6 @@ MonoBehaviour:
   - {fileID: 531920580}
   - {fileID: 1941100177}
   - {fileID: 1020970722}
-  - {fileID: 74219885}
   - {fileID: 876844223}
   - {fileID: 1387761584}
   - {fileID: 1545805932}
