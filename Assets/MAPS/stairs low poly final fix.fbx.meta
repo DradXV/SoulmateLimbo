@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 34d1bf94e668edd469f2563d8858096d
+guid: 51fd7dc0af01afc43ac623d0c604fe61
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -8,22 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: FrontColor
-    second: {fileID: 2100000, guid: 84cc9c4be3623b845aaf37f49451c058, type: 2}
+    second: {fileID: 2100000, guid: a03cfefda202d2f4c84b0685ab4d4701, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Stone_Marble_low
-    second: {fileID: 2100000, guid: b0f4601afed12e041ae2a217560fe272, type: 2}
+    second: {fileID: 2100000, guid: 5c160d8d08ee0aa499e6bba331a89d0c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Stone_Vein_Gray
-    second: {fileID: 2100000, guid: 9c08bdb2dd5eb9f4faadc905f6b0bb28, type: 2}
+    second: {fileID: 2100000, guid: 20aa97a99eec5d6448940014878cba51, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Stone_Vein_Gray_low
-    second: {fileID: 2100000, guid: 5e402c704b1854448ad1c8fffae111ab, type: 2}
+    second: {fileID: 2100000, guid: 3af37a0da83c40e428c04e06b4fdc06b, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

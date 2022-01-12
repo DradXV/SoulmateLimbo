@@ -1389,6 +1389,7 @@ MonoBehaviour:
   - {fileID: -7353900435444548102}
   - {fileID: 5402567922707136325}
   - {fileID: 386314562624632009}
+  - {fileID: 0}
   transitionProgress: 0
   appearType: 6
   speechMenuType: 0
@@ -1446,10 +1447,10 @@ MonoBehaviour:
   biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
-    x: 166.75
-    y: 200.12401
-    width: 333.5
-    height: 88.74
+    x: 97.25
+    y: 597.102
+    width: 194.5
+    height: 264.77
   showInFilter: 1
 --- !u!114 &-7558335943630133936
 MonoBehaviour:
@@ -1943,8 +1944,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 240.12
-    height: 21.42
+    width: 140.04001
+    height: 63.91
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -7995,10 +7996,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 240.12
+    x: 140.04001
     y: 0
-    width: 91.379
-    height: 85.374
+    width: 53.293
+    height: 254.727
   relativePosition: {x: 72, y: 0}
   numSlots: 1
   uiImage: {fileID: 0}
@@ -10986,10 +10987,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 1
   relativeRect:
     serializedVersion: 2
-    x: 3.335
-    y: 33.7212
-    width: 226.78
-    height: 52.02
+    x: 1.945
+    y: 100.612595
+    width: 132.26001
+    height: 155.21
   relativePosition: {x: 1, y: 38}
   numSlots: 1
   uiText: {fileID: 0}
