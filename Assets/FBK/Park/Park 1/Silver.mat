@@ -38,7 +38,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AffineTextureWarpingWeight: 0
+    - _AffineTextureWarpingWeight: 1
     - _AlphaClip: 0
     - _AlphaClippingDitherIsEnabled: 0
     - _Blend: 0
@@ -53,7 +53,7 @@ Material:
     - _LightingBaked: 1
     - _LightingDynamic: 1
     - _LightingMode: 0
-    - _PrecisionGeometryWeight: 0
+    - _PrecisionGeometryWeight: 1
     - _Reflection: 0
     - _ReflectionBlendMode: 0
     - _RenderQueueCategory: 0
