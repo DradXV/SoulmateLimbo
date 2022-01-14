@@ -145,9 +145,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 6
-  skipActionActual: {fileID: 1948573436}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -158,7 +158,7 @@ MonoBehaviour:
     x: 28
     y: 860.9
     width: 300
-    height: 226.6
+    height: 192.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 1147900470}
@@ -168,7 +168,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 1847541750}
-  messageText: '"Could you please leave the package at the door?"'
+  messageText: Bring me the object, then we'll talk.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -215,7 +215,7 @@ Transform:
   - {fileID: 1905672539}
   - {fileID: 1279070242}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &38452484
 MonoBehaviour:
@@ -305,7 +305,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 0
   skipAction: 8
-  skipActionActual: {fileID: 1398645913}
+  skipActionActual: {fileID: 451329789}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -313,8 +313,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 2222.2
+    x: 49
+    y: 2176
     width: 300
     height: 206.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -326,7 +326,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CFancy making a contract with me?\u201D"
+  messageText: '[expression:Happy]Fancy making a contract with me?'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -385,6 +385,67 @@ MeshRenderer:
   m_SortingLayerID: 861382453
   m_SortingLayer: 2
   m_SortingOrder: 0
+--- !u!114 &57163729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 10
+  skipActionActual: {fileID: 325013401}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 1128
+    width: 300
+    height: 201
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 2586028994909242502}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: '[expression:Narration]Without thinking, I ended up accepting her
+    request.'
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &61102159
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,8 +492,68 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &66627659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 21
+  skipActionActual: {fileID: 66627659}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 46
+    y: 4176.349
+    width: 300
+    height: 21
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 0
+  playerID: -1
+  speaker: {fileID: 896771821}
+  messageText: '[expression:Smug] You really think I would trick you?'
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &88457060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,8 +587,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 2005.5999
+    x: 54
+    y: 1995
     width: 300
     height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -480,66 +601,6 @@ MonoBehaviour:
   playerID: -1
   speaker: {fileID: 0}
   messageText: '[expression:Narration]I looked away in embarrassment.'
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
---- !u!114 &89558362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 337
-    y: 372
-    width: 300
-    height: 172.2
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 7018146287962280006}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: '"Yes, I am."'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -625,66 +686,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &92916208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 5
-  skipActionActual: {fileID: 626838360}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 360
-    y: 1112.55
-    width: 300
-    height: 192.2
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: '"Sure thing."'
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!114 &117123794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -718,8 +719,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1594.1998
+    x: 31
+    y: 1436.4501
     width: 300
     height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -731,7 +732,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '[expression:Narration]Delivery done. Time to go back.'
+  messageText: '[expression:Narration]All right, time to go back.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -773,7 +774,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &117975430
 GameObject:
@@ -876,7 +877,7 @@ Transform:
   - {fileID: 7429230836653157940}
   - {fileID: 2885267855716570002}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &126744249
 MonoBehaviour:
@@ -902,7 +903,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 16
+  skipAction: 17
   skipActionActual: {fileID: 126744249}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -911,8 +912,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 3650.6003
+    x: 39
+    y: 3769.1997
     width: 300
     height: 201
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -984,7 +985,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 205223446d8bf09448530612a8a772f2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 205223446d8bf09448530612a8a772f2,
         type: 3}
@@ -1092,7 +1093,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 36
+  skipAction: 37
   skipActionActual: {fileID: 151027679}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1101,8 +1102,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 363
-    y: 8251.201
+    x: 423.75647
+    y: 6958.398
     width: 300
     height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1174,7 +1175,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '"Now I can enter this door."'
+  messageText: Now I can enter this door.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -1293,7 +1294,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 7
+  skipAction: 10
   skipActionActual: {fileID: 325013401}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1303,7 +1304,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2202
+    y: 1974.2
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1896,7 +1897,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 0
   skipAction: 3
-  skipActionActual: {fileID: 1932758913}
+  skipActionActual: {fileID: 1766362232}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1904,8 +1905,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 478.2
+    x: 16
+    y: 479
     width: 300
     height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1917,7 +1918,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201CYeah.\u201D"
+  messageText: Yeah.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -2027,8 +2028,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 40
-  skipActionActual: {fileID: 1146025971}
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2036,10 +2037,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 8837.4
+    x: 422.8404
+    y: 7582.536
     width: 300
-    height: 333
+    height: 347.4
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -2049,13 +2050,123 @@ MonoBehaviour:
   menuToChangeParameterID: -1
   elementToChange: Journal
   elementToChangeParameterID: -1
-  journalText: "Thanks to the lady I met today, I have a place to rest\u2014at least
-    for now.\n\nIt seems to be at the left side from the entrance view."
+  journalText: 'I have a new place to stay for now.
+
+
+    I shouldn''t get used to
+    it.
+
+
+    It seems to be at the left side from the entrance view.'
   onlyAddNewJournal: 0
   doFade: 0
   lineID: -1
   journalPageIndex: -1
   journalPageIndexParameterID: -1
+--- !u!114 &301714648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: ActionHotspotEnable
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 7
+  title: Enable or disable
+  description: Turns a Hotspot on or off. To record the state of a Hotspot in save
+    games, be sure to add the RememberHotspot script to the Hotspot in question.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 28
+  skipActionActual: {fileID: 301714648}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 457.8341
+    y: 4894.5483
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 1349377826}
+  affectChildren: 0
+  changeType: 0
+--- !u!114 &320335226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 26
+  skipActionActual: {fileID: 744864306}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 64
+    y: 4305.599
+    width: 300
+    height: 21
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 0
+  playerID: -1
+  speaker: {fileID: 896771821}
+  messageText: '[expression:Happy] So, will you take my offer?'
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &325013401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2079,7 +2190,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 1
   endAction: 0
-  skipAction: 10
+  skipAction: 13
   skipActionActual: {fileID: 566600639}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -2089,7 +2200,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2404
+    y: 2176.2
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2194,66 +2305,6 @@ MonoBehaviour:
   playerID: 0
   addToFront: 0
   removeLast: 0
---- !u!114 &354367743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 691.006
-    y: 8137.4004
-    width: 300
-    height: 206.6
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 0
-  playerID: -1
-  speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CThank you as well for delivering that package.\u201D"
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!114 &356883264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2302,6 +2353,66 @@ MonoBehaviour:
   speaker: {fileID: 0}
   messageText: '[expression:Narration]I closed my eyes and got into a comfortable
     position.'
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
+--- !u!114 &372502930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 21
+  skipActionActual: {fileID: 66627659}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 472
+    y: 4149.349
+    width: 300
+    height: 206.6
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 0
+  playerID: -1
+  speaker: {fileID: 896771821}
+  messageText: '[expression:Happy] Great. I knew you were a smart one.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -2482,9 +2593,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 14
-  skipActionActual: {fileID: 2021927416}
+  endAction: 0
+  skipAction: 13
+  skipActionActual: {fileID: 393431023}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2492,10 +2603,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 2960.8
+    x: 49
+    y: 2911
     width: 300
-    height: 226.6
+    height: 206.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -2505,7 +2616,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\"How does it sound?\u201D"
+  messageText: '[expression:Happy]How does it sound?'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -2606,8 +2717,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 27
-  skipActionActual: {fileID: 924455878}
+  skipAction: 28
+  skipActionActual: {fileID: 301714648}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2615,8 +2726,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 5930.001
+    x: 453.8341
+    y: 4648.999
     width: 300
     height: 206.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2628,8 +2739,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CHere you go, darling, all yours from now
-    on.\u201D"
+  messageText: '[expression:Happy]Here you go, darling. All yours from now on.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -2805,6 +2915,127 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &451329789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 10
+  skipActionActual: {fileID: 1115425939}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 32
+    y: 1780.0001
+    width: 300
+    height: 172.2
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: "\u2026 [wait:1]"
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
+--- !u!114 &451999334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 31
+  skipActionActual: {fileID: 451999334}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 445.75647
+    y: 5517.1484
+    width: 300
+    height: 201
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: '[expression:Narration] She looked at me, still displaying that smugly
+    smile.'
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &454351520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2828,9 +3059,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 42
-  skipActionActual: {fileID: 607931973}
+  endAction: 0
+  skipAction: 35
+  skipActionActual: {fileID: 801403008}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2838,10 +3069,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 7552.401
+    x: 438.75647
+    y: 6283.1484
     width: 300
-    height: 192.2
+    height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -2851,7 +3082,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201CUhm, I have to go.\u201D"
+  messageText: Uhm, I have to go. I feel very tired all of a sudden.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -2951,7 +3182,7 @@ Transform:
   - {fileID: 1982275687}
   - {fileID: 233575224}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &509266355
 MonoBehaviour:
@@ -2978,7 +3209,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 0
   skipAction: 8
-  skipActionActual: {fileID: 1398645913}
+  skipActionActual: {fileID: 451329789}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2986,8 +3217,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 2458.8
+    x: 57
+    y: 2410
     width: 300
     height: 221
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2999,8 +3230,8 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CI\u2019ll get you a place to stay and work
-    to do so you can afford food.\u201D"
+  messageText: "[expression:Happy]I\u2019ll get you a place to stay and work to do
+    so you can afford food."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -3156,7 +3387,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 26
+  skipAction: 27
   skipActionActual: {fileID: 413099078}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -3165,8 +3396,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 5679.001
+    x: 482
+    y: 4397.349
     width: 300
     height: 221
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3246,14 +3477,14 @@ MonoBehaviour:
   description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
     displays a message. Subtitles only appear if they are enabled from the Options
     menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 25
-  skipActionActual: {fileID: 1177594083}
+  skipAction: 26
+  skipActionActual: {fileID: 744864306}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3261,10 +3492,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 4983.6006
+    x: 63
+    y: 4351.599
     width: 300
-    height: 206.6
+    height: 21
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -3274,67 +3505,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CSo, will you take my offer?\u201D"
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
---- !u!114 &555592813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 336
-    y: 577
-    width: 300
-    height: 192.2
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 7018146287962280006}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 0
-  playerID: -1
-  speaker: {fileID: 1847541750}
-  messageText: '"Ohh. Welcome, welcome!"'
+  messageText: '[expression:Happy]So, will you take my offer?'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -3372,7 +3543,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 10
+  skipAction: 13
   skipActionActual: {fileID: 566600639}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -3382,7 +3553,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3084.8
+    y: 2857
     width: 300
     height: 272
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3399,6 +3570,66 @@ MonoBehaviour:
   doGravityLock: 2
   doHotspotHeadTurnLock: 2
   movePath: {fileID: 0}
+--- !u!114 &580200700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 15
+  skipActionActual: {fileID: 580200700}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 20
+    y: 3344.1997
+    width: 300
+    height: 186.6
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: '[expression:Narration] I looked at her in surprise.'
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &589362071
 GameObject:
   m_ObjectHideFlags: 0
@@ -3455,8 +3686,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 1
-  skipAction: 11
-  skipActionActual: {fileID: 591924374}
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3464,8 +3695,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 2312.5999
+    x: 28
+    y: 2170.6675
     width: 300
     height: 234
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3575,10 +3806,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 13
-    y: 690.4
+    x: 14
+    y: 458.2
     width: 300
-    height: 192.2
+    height: 206.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2586028994909242502}
@@ -3588,67 +3819,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: '[expression:happy]"Oh! Wonderful."'
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
---- !u!114 &607931973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 34
-  skipActionActual: {fileID: 1541774995}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 94.34082
-    y: 7667.401
-    width: 300
-    height: 192.2
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: "\u201CI feel very tired all of a sudden.\u201D"
+  messageText: I need you to deliver something to a building nearby.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -3708,7 +3879,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '[expression:Narration]Maybe I should try pressing the TAB button
+  messageText: '[expression:Narration] Maybe I should try pressing the TAB button
     and dragging what he wants onto the door...'
   lineID: -1
   multiLineIDs: 
@@ -3795,8 +3966,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 27
-  skipActionActual: {fileID: 924455878}
+  skipAction: 28
+  skipActionActual: {fileID: 301714648}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3804,8 +3975,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 6348.601
+    x: 468.8341
+    y: 5063.5483
     width: 300
     height: 221
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3817,8 +3988,8 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CThe place is right in front of the building
-    you delivered the bag to.\u201D"
+  messageText: '[expression:Happy]The place is right in front of the building you
+    delivered the bag to.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -3922,7 +4093,8 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '[expression:Narration]I decided I would ask her next time I see her.'
+  messageText: "[expression:Narration]\u201CI\u2019ll ask her tomorrow,\u201D[wait:1]
+    I thought."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -4015,13 +4187,13 @@ MonoBehaviour:
   description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
     displays a message. Subtitles only appear if they are enabled from the Options
     menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 21
+  skipAction: 22
   skipActionActual: {fileID: 707253442}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -4030,10 +4202,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 4308.2
+    x: 49
+    y: 4214.349
     width: 300
-    height: 206.6
+    height: 21
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -4043,8 +4215,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201COh, dear, please don\u2019t think so low
-    of me.\u201D"
+  messageText: "[expression:Happy]Oh dear, please don\u2019t think so low of me."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -4097,8 +4268,68 @@ Transform:
   - {fileID: 1825700644665834629}
   - {fileID: 7018146287952083334}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &744864306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 19
+  skipActionActual: {fileID: 372502930}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 71
+    y: 4332.599
+    width: 300
+    height: 192.2
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: Yeah.
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &751858718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4132,8 +4363,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 967.6
+    x: 33
+    y: 753
     width: 300
     height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4145,7 +4376,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '"Thank you very much."'
+  messageText: That was a fast change of mood...
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -4182,9 +4413,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 16
-  skipActionActual: {fileID: 1307589671}
+  endAction: 0
+  skipAction: 6
+  skipActionActual: {fileID: 762535151}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -4192,10 +4423,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1169.7999
+    x: 33
+    y: 972
     width: 300
-    height: 212.2
+    height: 192.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7018146287962280006}
@@ -4205,7 +4436,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 1847541750}
-  messageText: '"Thank you too for the delivery."'
+  messageText: Thank you for the delivery.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -4527,7 +4758,7 @@ Transform:
   - {fileID: 2576980595149460297}
   - {fileID: 117975431}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &792828536
 MonoBehaviour:
@@ -4555,6 +4786,127 @@ MonoBehaviour:
   parameters: []
   tagID: 0
   syncParamValues: 1
+--- !u!114 &799171128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 5
+  skipActionActual: {fileID: 799171128}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 18
+    y: 1138.4001
+    width: 300
+    height: 186.6
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: '[expression:Narration] I could see a faint grin forming in her face.'
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
+--- !u!114 &801403008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 36
+  skipActionActual: {fileID: 1349465851}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 437.75647
+    y: 6500.398
+    width: 300
+    height: 221
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 0
+  playerID: -1
+  speaker: {fileID: 896771821}
+  messageText: "[expression:Happy] Sure thing. Take some rest, I\u2019m sure by tomorrow
+    you\u2019ll feel good as new."
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &852626861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4578,9 +4930,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 41
-  skipActionActual: {fileID: 1719415608}
+  endAction: 0
+  skipAction: 33
+  skipActionActual: {fileID: 852626861}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -4588,10 +4940,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 7268.601
+    x: 445.75647
+    y: 6009.1484
     width: 300
-    height: 206.6
+    height: 229.8
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -4601,7 +4953,8 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "[expression:Narration]Was I hypnotised\u2026?"
+  messageText: "[expression:Narration]Was I hypnotised\u2026? [wait:1]It was all
+    too sudden, but I couldn\u2019t stop to analyse the situation\u2014I was knackered.\r"
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -4760,9 +5113,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 12
-  skipActionActual: {fileID: 89558362}
+  endAction: 0
+  skipAction: 4
+  skipActionActual: {fileID: 1663343077}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -4770,10 +5123,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 338
+    x: 336
+    y: 75
     width: 300
-    height: 212.2
+    height: 221
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7018146287962280006}
@@ -4783,7 +5136,8 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 1847541750}
-  messageText: '"You said you''re new here, yes?"'
+  messageText: Oh, thank you! Are you a new worker here? Welcome, welcome! Please,
+    have this.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -4821,7 +5175,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 15
+  skipAction: 16
   skipActionActual: {fileID: 908765618}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -4830,8 +5184,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 3434.0002
+    x: 44
+    y: 3561.1997
     width: 300
     height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4939,7 +5293,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 7
+  skipAction: 10
   skipActionActual: {fileID: 325013401}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -4949,9 +5303,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1817.8
+    y: 1590
     width: 300
-    height: 206.6
+    height: 192.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2586028994909242502}
@@ -4961,7 +5315,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:happpy]\u201CHere\u2019s what I want you to deliver.\""
+  messageText: "Here\u2019s what I want you to deliver."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -5021,7 +5375,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '"I accept your request."'
+  messageText: Hi again.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -5057,8 +5411,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 1
-  skipAction: 14
-  skipActionActual: {fileID: 1103123632}
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -5066,8 +5420,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 3946.2
+    x: 19
+    y: 3714
     width: 300
     height: 234
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5106,8 +5460,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 27
-  skipActionActual: {fileID: 924455878}
+  skipAction: 28
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -5115,8 +5469,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 6166.601
+    x: 457.8341
+    y: 4894.5483
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5158,7 +5512,7 @@ Transform:
   - {fileID: 331117756}
   - {fileID: 2790141445753885252}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &932151996
 MonoBehaviour:
@@ -5264,7 +5618,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '[expression:Narration]I knocked on the door three times.'
+  messageText: '[expression:Narration] I knocked on the door three times.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -5346,7 +5700,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 30
+  skipAction: 31
   skipActionActual: {fileID: 937995093}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -5355,8 +5709,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 6801.8013
+    x: 445.75647
+    y: 5517.1484
     width: 300
     height: 201
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5485,7 +5839,7 @@ Transform:
   m_Children:
   - {fileID: 6671779998599401693}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &938344352
 MonoBehaviour:
@@ -5523,9 +5877,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 5
-  skipActionActual: {fileID: 1438935645}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -5536,7 +5890,7 @@ MonoBehaviour:
     x: 3
     y: 498.89996
     width: 300
-    height: 206.6
+    height: 201
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 1825700644660041029}
@@ -5546,7 +5900,8 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '[expression:Narration]And with that, she handed me a small bag.'
+  messageText: '[expression:Narration] And with that, [wait:1] she handed me a small
+    bag. Time to get things done.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -5738,7 +6093,7 @@ Transform:
   m_Children:
   - {fileID: 1576415445}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1012820947
 MonoBehaviour:
@@ -5850,7 +6205,7 @@ PrefabInstance:
     - target: {fileID: 8956386627764486924, guid: 2029082d0ef9e094197568259c7773d4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8956386627764486924, guid: 2029082d0ef9e094197568259c7773d4,
         type: 3}
@@ -5954,7 +6309,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 10
+  skipAction: 13
   skipActionActual: {fileID: 566600639}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -5964,7 +6319,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2882.6
+    y: 2654.8
     width: 300
     height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5976,7 +6331,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "\u201CAlright.\u201D"
+  messageText: S-sure.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -6065,66 +6420,6 @@ Transform:
   m_Father: {fileID: 589362072}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1058246554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 36
-  skipActionActual: {fileID: 151027679}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 752.006
-    y: 8369.4
-    width: 300
-    height: 192.2
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: "\u201CNo problem.\u201D"
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!114 &1058409722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6324,8 +6619,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 256
+    x: 15
+    y: 249
     width: 300
     height: 192.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6337,7 +6632,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "\u201CDid you deliver it?\u201D"
+  messageText: Did you deliver it?
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -6351,7 +6646,7 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &1103123632
+--- !u!114 &1115425939
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6361,7 +6656,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
+  m_Name: ActionSpeech(Clone)
   m_EditorClassIdentifier: 
   id: 0
   category: 4
@@ -6374,9 +6669,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 2
-  skipActionActual: {fileID: 606478978}
+  endAction: 0
+  skipAction: 8
+  skipActionActual: {fileID: 451329789}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6384,20 +6679,20 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 478.2
+    x: 49
+    y: 2176
     width: 300
-    height: 192.2
+    height: 206.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   constantID: 0
   parameterID: -1
   messageParameterID: -1
-  isPlayer: 1
+  isPlayer: 0
   playerID: -1
-  speaker: {fileID: 0}
-  messageText: '"What can I help with?"'
+  speaker: {fileID: 896771821}
+  messageText: '[expression:Happy] Fancy making a contract with me?'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -6457,7 +6752,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '"We could say so."'
+  messageText: Uhm...
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -6493,9 +6788,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 14
-  skipActionActual: {fileID: 1103123632}
+  endAction: 0
+  skipAction: 2
+  skipActionActual: {fileID: 606478978}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6506,7 +6801,7 @@ MonoBehaviour:
     x: 14
     y: 216.2
     width: 300
-    height: 232
+    height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2586028994909242502}
@@ -6549,8 +6844,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 39
-  skipActionActual: {fileID: 288708763}
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6558,8 +6853,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 8655.4
+    x: 421.19897
+    y: 7396.9536
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6593,8 +6888,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 1
-  skipAction: 40
-  skipActionActual: {fileID: 1146025971}
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6602,8 +6897,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 9214.801
+    x: 424.89575
+    y: 7988.9004
     width: 300
     height: 234
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6656,8 +6951,6 @@ MonoBehaviour:
   - {fileID: 1129347525}
   - {fileID: 11886334}
   - {fileID: 626838360}
-  - {fileID: 1948573436}
-  - {fileID: 92916208}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -6712,7 +7005,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1168707404
 MonoBehaviour:
@@ -6745,8 +7038,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1810.7998
+    x: 26
+    y: 1653
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6826,7 +7119,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 18
+  skipAction: 19
   skipActionActual: {fileID: 1635128452}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -6835,8 +7128,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 5220.2007
+    x: 64
+    y: 4394.599
     width: 300
     height: 192.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6848,7 +7141,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201CYeah.\u201D"
+  messageText: Yeah.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -6885,9 +7178,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
+  endAction: 0
   skipAction: 4
-  skipActionActual: {fileID: 913907267}
+  skipActionActual: {fileID: 1708725362}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6896,20 +7189,19 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 922.60004
+    y: 694.80005
     width: 300
-    height: 241
+    height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2586028994909242502}
   constantID: 0
   parameterID: -1
   messageParameterID: -1
-  isPlayer: 0
+  isPlayer: 1
   playerID: -1
-  speaker: {fileID: 896771821}
-  messageText: "[expression:happy]\u201CI need you to deliver something to a building
-    nearby.\u201D"
+  speaker: {fileID: 0}
+  messageText: "I\u2026 Uhm."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -6941,13 +7233,13 @@ MonoBehaviour:
   description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
     displays a message. Subtitles only appear if they are enabled from the Options
     menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 20
+  skipAction: 21
   skipActionActual: {fileID: 1194597509}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -6956,10 +7248,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 4071.6003
+    x: 46
+    y: 4176.349
     width: 300
-    height: 206.6
+    height: 21
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -6969,7 +7261,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Smug]\u201CYou really think I would trick you?\u201D"
+  messageText: '[expression:Smug]You really think I would trick you?'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -7135,46 +7427,6 @@ Transform:
   m_Father: {fileID: 12058567}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1307589671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: Wait
-  m_EditorClassIdentifier: 
-  id: 1
-  category: 6
-  title: Wait
-  description: Waits a set time before continuing.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 334
-    y: 1352.8008
-    width: 300
-    height: 92
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 7018146287962280006}
-  parameterID: -1
-  timeToPause: 0
 --- !u!1 &1311015928
 GameObject:
   m_ObjectHideFlags: 0
@@ -7229,13 +7481,13 @@ MonoBehaviour:
   description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
     displays a message. Subtitles only appear if they are enabled from the Options
     menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 22
+  skipAction: 23
   skipActionActual: {fileID: 1339309567}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -7244,10 +7496,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 4544.8003
+    x: 58
+    y: 4250.349
     width: 300
-    height: 206.6
+    height: 21
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -7257,7 +7509,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CI have better things to do than playing pranks.\u201D"
+  messageText: '[expression:Happy]I have better things to do than playing pranks.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -7523,6 +7775,66 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1349465851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 36
+  skipActionActual: {fileID: 1349465851}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 428.75647
+    y: 6751.398
+    width: 300
+    height: 172.2
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: Thank you.
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &1357002280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7569,7 +7881,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201C\u2026Hello? Uhm, delivery!\u201D"
+  messageText: "\u2026Hello? Uhm, delivery."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -7628,7 +7940,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7abcf561ec1549e469779f40206ca5a6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7abcf561ec1549e469779f40206ca5a6,
         type: 3}
@@ -7697,7 +8009,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2d154fd29b0ca1b419689f4b55967741,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d154fd29b0ca1b419689f4b55967741,
         type: 3}
@@ -7889,7 +8201,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 11
+  skipAction: 14
   skipActionActual: {fileID: 1387028380}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -7899,7 +8211,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3386.8
+    y: 3159
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7936,7 +8248,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 51315564}
+  skipActionActual: {fileID: 1115425939}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -7944,8 +8256,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1803.3999
+    x: 32
+    y: 1780.0001
     width: 300
     height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7957,7 +8269,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201C\u2026\u201D"
+  messageText: "\u2026"
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -8075,66 +8387,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &1438935645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 4
-  skipActionActual: {fileID: 2064869753}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 324
-    y: 614
-    width: 300
-    height: 206.6
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: '[expression:Narration]Time to get things done.'
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!114 &1448987316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8159,7 +8411,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 10
+  skipAction: 13
   skipActionActual: {fileID: 566600639}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -8169,7 +8421,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2646
+    y: 2418.2
     width: 300
     height: 206.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8181,7 +8433,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: '[expression:Happy]"Please take it to the building to my left."'
+  messageText: '[expression:Happy][wait:1]Take it to the building with the red door.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -8228,10 +8480,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 2709.8
+    x: 59
+    y: 2657
     width: 300
-    height: 221
+    height: 206.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -8241,7 +8493,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CYou can pay for the place when you have enough.\""
+  messageText: '[expression:Happy]You can pay for the place when you have enough.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -8283,68 +8535,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1468452005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 338
-    y: 781.60034
-    width: 300
-    height: 192.2
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 7018146287962280006}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 0
-  playerID: -1
-  speaker: {fileID: 1847541750}
-  messageText: "\"Please, have this.\u201D"
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!1 &1476591583
 GameObject:
   m_ObjectHideFlags: 0
@@ -8724,14 +8916,14 @@ MonoBehaviour:
   description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
     displays a message. Subtitles only appear if they are enabled from the Options
     menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 24
-  skipActionActual: {fileID: 554951926}
+  skipAction: 25
+  skipActionActual: {fileID: 320335226}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -8739,10 +8931,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 4781.4004
+    x: 73
+    y: 4298.599
     width: 300
-    height: 172.2
+    height: 21
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -8752,7 +8944,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201CRight\u2026 Sorry.\u201D"
+  messageText: "Right\u2026 Sorry."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -8789,9 +8981,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 43
-  skipActionActual: {fileID: 1798041195}
+  endAction: 0
+  skipAction: 36
+  skipActionActual: {fileID: 1349465851}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -8799,10 +8991,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 7769.001
+    x: 437.75647
+    y: 6500.398
     width: 300
-    height: 212.2
+    height: 221
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -8812,67 +9004,8 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CSure thing.\u201D"
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
---- !u!114 &1568742364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 4
-  skipActionActual: {fileID: 1663343077}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 340
-    y: 1002.60034
-    width: 300
-    height: 226.6
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 7018146287962280006}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 0
-  playerID: -1
-  speaker: {fileID: 1847541750}
-  messageText: '"I''m no fan of sweet snacks, but perhaps you''d like it."'
+  messageText: "[expression:Happy]Sure thing. Take some rest, I\u2019m sure by tomorrow
+    you\u2019ll feel good as new."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -8948,8 +9081,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 3881.6003
+    x: 32
+    y: 3986.349
     width: 300
     height: 160
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8962,7 +9095,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 2
-    skipAction: 20
+    skipAction: 21
     skipActionActual: {fileID: 1194597509}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -8993,7 +9126,7 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 1
+  endAction: 0
   skipAction: 4
   skipActionActual: {fileID: 1663343077}
   linkedCutscene: {fileID: 0}
@@ -9003,8 +9136,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 588
+    x: 48
+    y: 307
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9046,8 +9179,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 20
-  skipActionActual: {fileID: 1194597509}
+  skipAction: 21
+  skipActionActual: {fileID: 66627659}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -9055,8 +9188,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 5442.401
+    x: 472
+    y: 4149.349
     width: 300
     height: 206.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9068,7 +9201,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CGreat! I knew you were a smart one.\u201D"
+  messageText: '[expression:Happy]Great. I knew you were a smart one.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -9115,8 +9248,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1350.2
+    x: 33
+    y: 1349.4001
     width: 300
     height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9167,7 +9300,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 0
   skipAction: 8
-  skipActionActual: {fileID: 1398645913}
+  skipActionActual: {fileID: 451329789}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -9175,8 +9308,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1566.7999
+    x: 35
+    y: 1540.0001
     width: 300
     height: 206.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9188,7 +9321,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CHungry, aren\u2019t we?\u201D"
+  messageText: '[expression:Happy]Hungry aren''t we?'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -9327,8 +9460,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 751
+    x: 52
+    y: 508
     width: 300
     height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9340,7 +9473,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '[expression:Narration]The man handed me a box of chocolates.'
+  messageText: '[expression:Narration]The man gave me a box of chocolates.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -9490,7 +9623,7 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!114 &1719415608
+--- !u!114 &1708725362
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9513,9 +9646,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 33
-  skipActionActual: {fileID: 454351520}
+  endAction: 0
+  skipAction: 5
+  skipActionActual: {fileID: 57163729}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -9523,21 +9656,21 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 90.340805
-    y: 7356.401
+    x: 14
+    y: 897.00006
     width: 300
-    height: 235.4
+    height: 201
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
+  parentActionListInEditor: {fileID: 2586028994909242502}
   constantID: 0
   parameterID: -1
   messageParameterID: -1
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "[expression:Narration]It was all too sudden, but I couldn\u2019t
-    stop to analyse the situation\u2014I was knackered.\r"
+  messageText: "[expression:Narration]I didn\u2019t know what to say. Her question
+    took me completely off-guard."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -9601,6 +9734,66 @@ MonoBehaviour:
   lineID: -1
   journalPageIndex: -1
   journalPageIndexParameterID: -1
+--- !u!114 &1766362232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 4
+  skipActionActual: {fileID: 1927758075}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 16
+    y: 692.5
+    width: 300
+    height: 206.6
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 0
+  playerID: -1
+  speaker: {fileID: 896771821}
+  messageText: "Thank you. I didn\u2019t expect you to be so obedient."
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &1767441244
 GameObject:
   m_ObjectHideFlags: 0
@@ -9817,8 +10010,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 30
-  skipActionActual: {fileID: 937995093}
+  skipAction: 31
+  skipActionActual: {fileID: 451999334}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -9826,8 +10019,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 6599.601
+    x: 451.75647
+    y: 5310.1484
     width: 300
     height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9839,68 +10032,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201CT-Thanks.\u201D"
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
---- !u!114 &1798041195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 35
-  skipActionActual: {fileID: 1899674195}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 31.09079
-    y: 7959.401
-    width: 300
-    height: 241
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 0
-  playerID: -1
-  speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CRest a bit, I\u2019m sure by tomorrow you\u2019ll
-    feel good as new.\u201D"
+  messageText: T-thanks.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -10400,7 +10532,7 @@ Transform:
   m_Children:
   - {fileID: 389729386}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1866246230
 MonoBehaviour:
@@ -10448,7 +10580,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '"I''ve seen this before..."'
+  messageText: I've seen this before...
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -10486,7 +10618,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 37
+  skipAction: 38
   skipActionActual: {fileID: 1887275846}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -10495,8 +10627,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 8438.801
+    x: 426.75647
+    y: 7176.398
     width: 300
     height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10508,7 +10640,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: '[expression:Narration]It was time to find my new home.'
+  messageText: "[expression:Narration]Time to find my new home.\r"
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -10546,7 +10678,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 31
+  skipAction: 32
   skipActionActual: {fileID: 1890627545}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -10555,8 +10687,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 7032.8013
+    x: 439.75647
+    y: 5766.1484
     width: 300
     height: 229.8
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10646,9 +10778,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 44
-  skipActionActual: {fileID: 354367743}
+  endAction: 0
+  skipAction: 36
+  skipActionActual: {fileID: 1899674195}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -10656,10 +10788,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 8020.001
+    x: 428.75647
+    y: 6751.398
     width: 300
-    height: 192.2
+    height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -10669,7 +10801,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201CThank you.\u201D"
+  messageText: Thank you.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -10827,6 +10959,66 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1927758075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 5
+  skipActionActual: {fileID: 799171128}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 16
+    y: 930.5
+    width: 300
+    height: 172.2
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: Neither did I.
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &1932758913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10852,7 +11044,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 0
   skipAction: 4
-  skipActionActual: {fileID: 2127397539}
+  skipActionActual: {fileID: 1927758075}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -10860,10 +11052,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 680.4
+    x: 16
+    y: 692.5
     width: 300
-    height: 221
+    height: 206.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4151098427822544444}
@@ -10873,8 +11065,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 896771821}
-  messageText: "[expression:Happy]\u201CThank you. I didn\u2019t expect you to be
-    so obedient.\u201D"
+  messageText: "Thank you. I didn\u2019t expect you to be so obedient."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -10918,66 +11109,6 @@ Transform:
   m_Father: {fileID: 500338367}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1948573436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 343
-    y: 880
-    width: 300
-    height: 192.2
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 0
-  playerID: -1
-  speaker: {fileID: 1847541750}
-  messageText: '"My hands are full at the moment."'
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 1
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!114 &1960125450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11000,8 +11131,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 13
-  skipActionActual: {fileID: 917504210}
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -11009,10 +11140,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 3568.8
+    x: 16
+    y: 3341
     width: 300
-    height: 304.2
+    height: 347.4
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2586028994909242502}
@@ -11025,8 +11156,11 @@ MonoBehaviour:
   journalText: 'She needs me to deliver a bag.
 
 
-    The place is at the right side
-    from the entrance view.'
+    I shouldn''t make too many questions.
+
+
+    The
+    place is at the right side from the entrance view.'
   onlyAddNewJournal: 0
   doFade: 0
   lineID: -1
@@ -11065,8 +11199,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1391.9999
+    x: 33
+    y: 1245.4501
     width: 300
     height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11078,7 +11212,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201CIt\u2019s no problem.\u201D"
+  messageText: No problem.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -11194,7 +11328,7 @@ PrefabInstance:
     - target: {fileID: 6647425479669999413, guid: 2024ef9b20fe28c4196080ca4b9224ec,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6647425479669999413, guid: 2024ef9b20fe28c4196080ca4b9224ec,
         type: 3}
@@ -11295,7 +11429,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 0
   skipAction: 4
-  skipActionActual: {fileID: 1663343077}
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -11303,8 +11437,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 176
+    x: 54
+    y: 137
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11368,7 +11502,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 1847541750}
-  messageText: '"Oh, are you a new worker here?"'
+  messageText: Do you have the object?
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -11612,7 +11746,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 14
+  skipAction: 15
   skipActionActual: {fileID: 2021927416}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -11621,8 +11755,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 3217.4001
+    x: 20
+    y: 3344.1997
     width: 300
     height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11681,8 +11815,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1133.6
+    x: 18
+    y: 1138.4001
     width: 300
     height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11694,7 +11828,68 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "[expression:Narration]\rI could see a grin forming in her face. "
+  messageText: '[expression:Narration]I could see a faint grin forming in her face.'
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
+--- !u!114 &2033155751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 10
+  skipActionActual: {fileID: 325013401}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 1359
+    width: 300
+    height: 201
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 2586028994909242502}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: '[expression:Narration]Her intense gaze and demonic features got the
+    best of me.'
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -11941,7 +12136,7 @@ Transform:
   m_LocalScale: {x: 11.5334, y: 0.28083, z: 11.460442}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2056769695
 GameObject:
@@ -11973,7 +12168,7 @@ Transform:
   m_Children:
   - {fileID: 521505247}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2056769697
 MonoBehaviour:
@@ -12076,7 +12271,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 7
+  skipAction: 10
   skipActionActual: {fileID: 325013401}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -12086,7 +12281,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2040
+    y: 1812.2
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -12119,8 +12314,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 11
-  skipActionActual: {fileID: 591924374}
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -12128,10 +12323,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1992.7998
+    x: 29
+    y: 1855
     width: 300
-    height: 304.2
+    height: 289.8
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7018146287962280006}
@@ -12141,11 +12336,11 @@ MonoBehaviour:
   menuToChangeParameterID: -1
   elementToChange: Journal
   elementToChangeParameterID: -1
-  journalText: 'My delivery job is done.
+  journalText: 'Seems like it''s done.
 
 
-    I should check back on the long-haired
-    girl.'
+    I should check back on the girl to see
+    if everything''s done.'
   onlyAddNewJournal: 0
   doFade: 0
   lineID: -1
@@ -12381,7 +12576,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 0
   skipAction: 5
-  skipActionActual: {fileID: 2029841024}
+  skipActionActual: {fileID: 799171128}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -12389,8 +12584,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 931.4
+    x: 16
+    y: 930.5
     width: 300
     height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -12402,7 +12597,67 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201CNeither did I.\u201D"
+  messageText: Neither did I.
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
+--- !u!114 &2137999663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 15
+  skipActionActual: {fileID: 580200700}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 45
+    y: 3143.6
+    width: 300
+    height: 172.2
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 4151098427822544444}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: "\u2026!"
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -13401,7 +13656,6 @@ MonoBehaviour:
   - {fileID: 347321016}
   - {fileID: 973017101}
   - {fileID: 2064869753}
-  - {fileID: 1438935645}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -13781,6 +14035,9 @@ MonoBehaviour:
   - {fileID: 1136314886}
   - {fileID: 606478978}
   - {fileID: 1193537591}
+  - {fileID: 1708725362}
+  - {fileID: 57163729}
+  - {fileID: 2033155751}
   - {fileID: 913907267}
   - {fileID: 2060972625}
   - {fileID: 208121510}
@@ -13791,7 +14048,6 @@ MonoBehaviour:
   - {fileID: 1387028380}
   - {fileID: 1960125450}
   - {fileID: 917504210}
-  - {fileID: 1103123632}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -14513,7 +14769,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3722653534345168673
 MonoBehaviour:
@@ -14607,6 +14863,85 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1001 &3949154037181551576
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.4399996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.87247896
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.4886517
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -238.504
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550120534897547681, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949154036935966286, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: useButtons.Array.data[0].interaction
+      value: 
+      objectReference: {fileID: 2586028994909242502}
+    - target: {fileID: 3949154036935966286, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: useButtons.Array.data[1].interaction
+      value: 
+      objectReference: {fileID: 4151098427822544444}
+    - target: {fileID: 4183667572191986459, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_Name
+      value: Mara_Redux
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a1fa1e513d72f8b43a2e2b38c616162c, type: 3}
 --- !u!114 &4017458541689806869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14785,6 +15120,7 @@ MonoBehaviour:
   - {fileID: 509266355}
   - {fileID: 1449021061}
   - {fileID: 393431023}
+  - {fileID: 2137999663}
   - {fileID: 2021927416}
   - {fileID: 908765618}
   - {fileID: 126744249}
@@ -14812,11 +15148,6 @@ MonoBehaviour:
   - {fileID: 1143624720}
   - {fileID: 288708763}
   - {fileID: 1146025971}
-  - {fileID: 1719415608}
-  - {fileID: 607931973}
-  - {fileID: 1798041195}
-  - {fileID: 354367743}
-  - {fileID: 1058246554}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -16080,11 +16411,6 @@ MonoBehaviour:
   - {fileID: 1168707404}
   - {fileID: 2062309419}
   - {fileID: 591924374}
-  - {fileID: 89558362}
-  - {fileID: 555592813}
-  - {fileID: 1468452005}
-  - {fileID: 1568742364}
-  - {fileID: 1307589671}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
