@@ -201,7 +201,7 @@ ModelImporter:
       name: CASSIELpray
       takeName: Armature|ArmatureAction
       internalID: 0
-      firstFrame: 100
+      firstFrame: 120
       lastFrame: 160
       wrapMode: 0
       orientationOffsetY: 0
@@ -225,7 +225,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 1
     - serializedVersion: 16
       name: CASSIELheaddown
       takeName: Armature|ArmatureAction
