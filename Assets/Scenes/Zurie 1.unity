@@ -392,7 +392,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CThanks for bringing this to me.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -725,7 +725,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CAhhh, that\u2019s better.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -857,7 +857,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CLimbo? It\u2019s Hell, or Paradise\u2014[wait:1or neither.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -989,7 +989,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CThat\u2019s what folks around here call it.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -1686,7 +1686,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   _charID: 0
-  _char: {fileID: 1418541193}
+  _char: {fileID: 0}
   newName: Zurie
   lineID: -1
 --- !u!114 &178691581
@@ -1952,7 +1952,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CWhenever you\u2019re tired, get in there and do as ya will.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -2012,7 +2012,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201COne thing ya might find helpful though is the building to the
     left from the entrance."
   lineID: -1
@@ -2745,7 +2745,7 @@ MonoBehaviour:
     x: 15
     y: 1810.7998
     width: 300
-    height: 192.2
+    height: 212.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7162265781963663587}
@@ -2754,7 +2754,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: '"..."'
   lineID: -1
   multiLineIDs: 
@@ -4101,7 +4101,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CI ain\u2019t a king or anything like that.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -4816,7 +4816,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CYou have another question, don\u2019t ya?"
   lineID: -1
   multiLineIDs: 
@@ -5983,7 +5983,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   _charID: 0
-  _char: {fileID: 1418541193}
+  _char: {fileID: 0}
   newName: Zurie
   lineID: -1
 --- !u!114 &572360469
@@ -7227,7 +7227,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CBring it on.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -7479,7 +7479,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CWhoa, whoa. Stop.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -7963,7 +7963,7 @@ MonoBehaviour:
     x: 14
     y: 478
     width: 300
-    height: 192.2
+    height: 212.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7162265781963663587}
@@ -7972,7 +7972,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: '"You came back."'
   lineID: -1
   multiLineIDs: 
@@ -8174,7 +8174,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CI know.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -8393,7 +8393,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 2450718626849635473}
   obToMoveParameterID: -1
   obToMoveID: 0
-  obToMove: {fileID: 1418541188}
+  obToMove: {fileID: 0}
   markerParameterID: -1
   markerID: 0
   teleporter: {fileID: 2896446788732058639}
@@ -8930,8 +8930,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 17
-    y: 2072.7998
+    x: 14
+    y: 2092.7998
     width: 300
     height: 192.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9176,7 +9176,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CI didn\u2019t ask.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -9978,7 +9978,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CWhat a coincidence, I was actually feeling very tired too all
     of a sudden\u2026\u201D"
   lineID: -1
@@ -10039,7 +10039,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201C\u2026Whatever, I'll take it.\""
   lineID: -1
   multiLineIDs: 
@@ -11044,7 +11044,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CI feel much better already.\u201D\r"
   lineID: -1
   multiLineIDs: 
@@ -11757,7 +11757,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CWhat\u2019s up?\u201D"
   lineID: -1
   multiLineIDs: 
@@ -12187,7 +12187,7 @@ MonoBehaviour:
   faceObjectID: 0
   isInstant: 0
   charToMove: {fileID: 0}
-  faceObject: {fileID: 1418541188}
+  faceObject: {fileID: 0}
   copyRotation: 0
   facePlayer: 0
   facePlayerID: -1
@@ -12888,7 +12888,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CYou\u2019re lucky I\u2019m in a good mood.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -13402,7 +13402,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CCould ya leave me alone now?\u201D"
   lineID: -1
   multiLineIDs: 
@@ -14247,7 +14247,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CWhy are ya looking at me like that?\u201D"
   lineID: -1
   multiLineIDs: 
@@ -14794,13 +14794,13 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 192
+    height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7162265781963663587}
   obToMoveParameterID: -1
   obToMoveID: 0
-  obToMove: {fileID: 1418541188}
+  obToMove: {fileID: 0}
   markerParameterID: -1
   markerID: 0
   teleporter: {fileID: 7060193684243542759}
@@ -15415,7 +15415,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CWhat the fuck is this?\u201D"
   lineID: -1
   multiLineIDs: 
@@ -16276,7 +16276,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CNah. You\u2019ll be fine.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -16522,7 +16522,7 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
+  endAction: 0
   skipAction: 9
   skipActionActual: {fileID: 823427934}
   linkedCutscene: {fileID: 0}
@@ -16544,7 +16544,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: '"Unless you wanna be my next meal."'
   lineID: -1
   multiLineIDs: 
@@ -18131,7 +18131,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CThanks again.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -19007,7 +19007,7 @@ MonoBehaviour:
   charToMoveID: 0
   faceObjectID: 0
   isInstant: 0
-  charToMove: {fileID: 1418541193}
+  charToMove: {fileID: 0}
   faceObject: {fileID: 0}
   copyRotation: 0
   facePlayer: 1
@@ -19454,7 +19454,7 @@ MonoBehaviour:
     x: 364
     y: 1821.7998
     width: 300
-    height: 212.2
+    height: 232.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7162265781963663587}
@@ -19463,7 +19463,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: '"Hurry it up, will you?"'
   lineID: -1
   multiLineIDs: 
@@ -19523,7 +19523,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CWhy so formal?\u201D"
   lineID: -1
   multiLineIDs: 
@@ -20207,7 +20207,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CIf you\u2019re looking for a precise answer on what Limbo actually
     is, I ain\u2019t your guy.\u201D\r"
   lineID: -1
@@ -20477,7 +20477,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CBecause of this, I will let you live another day.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -20609,7 +20609,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CNo problem.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -21214,7 +21214,7 @@ MonoBehaviour:
     x: 14
     y: 1366.3999
     width: 300
-    height: 212.2
+    height: 232.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7162265781963663587}
@@ -21223,7 +21223,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: '"Where is my food?"'
   lineID: -1
   multiLineIDs: 
@@ -22171,6 +22171,66 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 9500000, guid: 564942b20d7234e94816d318c53fed8f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 564942b20d7234e94816d318c53fed8f, type: 3}
+--- !u!114 &2064983138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 9
+  skipActionActual: {fileID: 823427934}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 363
+    y: 2301
+    width: 300
+    height: 192.2
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: '"..."'
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 1
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &2076763963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22209,13 +22269,13 @@ MonoBehaviour:
     x: 14
     y: 700.2
     width: 300
-    height: 192
+    height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7162265781963663587}
   obToMoveParameterID: -1
   obToMoveID: 0
-  obToMove: {fileID: 1418541188}
+  obToMove: {fileID: 0}
   markerParameterID: -1
   markerID: 0
   teleporter: {fileID: 6483503160124396891}
@@ -22279,7 +22339,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CI personally prefer \u2018Shithole.\u2019\u201D"
   lineID: -1
   multiLineIDs: 
@@ -22339,7 +22399,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CThe name\u2019s Zurie.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -22459,7 +22519,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CAh, okay.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -22581,7 +22641,7 @@ MonoBehaviour:
   charToMoveID: 0
   faceObjectID: 0
   isInstant: 0
-  charToMove: {fileID: 1418541193}
+  charToMove: {fileID: 0}
   faceObject: {fileID: 0}
   copyRotation: 0
   facePlayer: 1
@@ -22999,7 +23059,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 0
   playerID: -1
-  speaker: {fileID: 1418541193}
+  speaker: {fileID: 0}
   messageText: "\u201CWell, I\u2019m tired.\u201D"
   lineID: -1
   multiLineIDs: 
@@ -28182,6 +28242,7 @@ MonoBehaviour:
   - {fileID: 116087646}
   - {fileID: 1917943401}
   - {fileID: 1613893016}
+  - {fileID: 2064983138}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0

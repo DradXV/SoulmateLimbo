@@ -4834,7 +4834,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u201CHey, it\u2019s okay.\u201D"
+  messageText: "\u201CIt\u2019s okay.\u201D"
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -14805,7 +14805,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 667598388}
-  messageText: "\u201CDo not worry.\u201D"
+  messageText: "\u201C...Do not worry.\u201D"
   lineID: -1
   multiLineIDs: 
   isBackground: 0
