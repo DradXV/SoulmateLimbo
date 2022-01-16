@@ -4000,6 +4000,7 @@ MonoBehaviour:
   - {fileID: 6386371387217995922}
   - {fileID: -3744969948996246391}
   - {fileID: -794298111811663127}
+  - {fileID: 0}
   transitionProgress: 0
   appearType: 3
   speechMenuType: 0
