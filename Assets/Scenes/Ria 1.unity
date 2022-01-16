@@ -2931,20 +2931,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &497839131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1012c3f978cd34bbda375ce9f11d5001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1 &500338366
 GameObject:
   m_ObjectHideFlags: 0
@@ -3865,6 +3851,20 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &685163465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &685417603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4604,20 +4604,6 @@ MonoBehaviour:
   parameters: []
   tagID: 0
   syncParamValues: 1
---- !u!114 &819880281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d8fc38712ca94d019e6fe60b1c4a944, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &823449195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5530,7 +5516,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 3
   customClassName: 
-  animEngine: {fileID: 819880281}
+  animEngine: {fileID: 685163465}
 --- !u!1 &983089611
 GameObject:
   m_ObjectHideFlags: 0
@@ -9001,6 +8987,56 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1493397208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: ActionMenuState
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 10
+  title: Change state
+  description: Provides various options to show and hide both menus and menu elements.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 40
+    y: 1280
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7906279468033793008}
+  changeType: 3
+  removeJournalPageMethod: 0
+  menuToChange: Diary
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!114 &1574446298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9937,7 +9973,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 5
-  skipActionActual: {fileID: 1924643248}
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -10732,76 +10768,6 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   relativeTo: 0
---- !u!114 &1924643248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
-  m_Name: ActionAnim
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 12
-  title: Animate
-  description: Causes a GameObject to play or stop an animation, or modify a Blend
-    Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 40
-    y: 1280
-    width: 300
-    height: 232
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 7906279468033793008}
-  parameterID: -1
-  constantID: 0
-  _anim: {fileID: 0}
-  runtimeAnim: {fileID: 0}
-  clip: {fileID: 0}
-  fadeTime: 0
-  _anim2D: {fileID: 0}
-  runtimeAnim2D: {fileID: 0}
-  animator: {fileID: 0}
-  runtimeAnimator: {fileID: 0}
-  clip2D: 
-  clip2DParameterID: -1
-  wrapMode2D: 0
-  layerInt: 0
-  shapeObject: {fileID: 0}
-  runtimeShapeObject: {fileID: 0}
-  shapeKey: 0
-  shapeValue: 0
-  isPlayer: 0
-  methodMecanim: 1
-  mecanimParameterType: 0
-  parameterName: 
-  parameterNameID: -1
-  parameterValue: 0
-  parameterValueParameterID: -1
-  method: 0
-  blendMode: 0
-  playMode: 0
-  animationEngine: 4
-  customClassName: 
-  animEngine: {fileID: 497839131}
 --- !u!1 &1935721245
 GameObject:
   m_ObjectHideFlags: 0
@@ -15965,7 +15931,7 @@ MonoBehaviour:
   - {fileID: 963300008}
   - {fileID: 1754107527}
   - {fileID: 1207519921}
-  - {fileID: 1924643248}
+  - {fileID: 1493397208}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0

@@ -8405,6 +8405,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1026113082401638185, guid: 052df2ec609a0de468de08d416f70fc9,
+        type: 3}
+      propertyPath: m_Mass
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1026113082401638190, guid: 052df2ec609a0de468de08d416f70fc9,
         type: 3}
       propertyPath: invButtons.Array.size
@@ -9148,6 +9153,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 46.730453
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949154036935966285, guid: a1fa1e513d72f8b43a2e2b38c616162c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3949154036935966286, guid: a1fa1e513d72f8b43a2e2b38c616162c,
         type: 3}
@@ -17407,6 +17417,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ria_Redux
       objectReference: {fileID: 0}
+    - target: {fileID: 2902386256389354340, guid: 68a6f351a5279f143b2d4774409892d8,
+        type: 3}
+      propertyPath: m_Mass
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2902386256389354341, guid: 68a6f351a5279f143b2d4774409892d8,
         type: 3}
       propertyPath: useButtons.Array.size
@@ -21551,6 +21566,11 @@ PrefabInstance:
         type: 3}
       propertyPath: useButtons.Array.data[0].playerAction
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330033741000108885, guid: 22fe2957c08061b4dbff691f51ba0291,
+        type: 3}
+      propertyPath: m_Mass
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1585130585530371259, guid: 22fe2957c08061b4dbff691f51ba0291,
         type: 3}
@@ -26971,6 +26991,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7144015091605931460, guid: f976d34495fc534419459b7349340357,
+        type: 3}
+      propertyPath: m_Mass
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7144015091605931461, guid: f976d34495fc534419459b7349340357,
         type: 3}
       propertyPath: useButtons.Array.data[0].interaction

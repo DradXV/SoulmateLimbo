@@ -53,7 +53,7 @@ Material:
     - _LightingBaked: 1
     - _LightingDynamic: 1
     - _LightingMode: 0
-    - _PrecisionGeometryWeight: 1
+    - _PrecisionGeometryWeight: 0
     - _Reflection: 0
     - _ReflectionBlendMode: 0
     - _RenderQueueCategory: 0

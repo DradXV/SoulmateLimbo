@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6042366122181263542}
   - component: {fileID: 3151910078052318082}
   - component: {fileID: 3731438662712193230}
+  - component: {fileID: 1356273568682038294}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -75,6 +76,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1356273568682038294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074633528491607010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 18376
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &3893387340095614142
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +817,7 @@ GameObject:
   - component: {fileID: 4253391202594234712}
   - component: {fileID: 4253391202594234713}
   - component: {fileID: 4253391202594234710}
+  - component: {fileID: 82745349429377156}
   m_Layer: 5
   m_Name: DiaryCanvas
   m_TagString: Untagged
@@ -893,6 +910,21 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &82745349429377156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4253391202594234711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 13950
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &4501031717048999934
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,7 +1393,7 @@ GameObject:
   - component: {fileID: 8541967083914286967}
   - component: {fileID: 8010910330760153218}
   - component: {fileID: 1513270730452994698}
-  - component: {fileID: 280540769210162521}
+  - component: {fileID: 6691710198264806172}
   m_Layer: 5
   m_Name: Mara Diary
   m_TagString: Untagged
@@ -1410,7 +1442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1438,25 +1470,21 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!95 &280540769210162521
-Animator:
-  serializedVersion: 3
+--- !u!114 &6691710198264806172
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6549674681824485512}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bd9f4997fc6b31a4da0e21017933d8e6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 11818
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &7638599738690752835
 GameObject:
   m_ObjectHideFlags: 0
