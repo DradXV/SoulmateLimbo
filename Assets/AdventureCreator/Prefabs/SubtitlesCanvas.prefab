@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: "Pero no le d\xED importancia jejeje\nhola hola hola"
+  m_Text: Testing the subtitles PrefabUI
 --- !u!114 &8001072348451496661
 MonoBehaviour:
   m_ObjectHideFlags: 0

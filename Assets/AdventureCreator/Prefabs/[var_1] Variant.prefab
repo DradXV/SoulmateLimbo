@@ -155,7 +155,7 @@ PrefabInstance:
     - target: {fileID: 9111589836242601580, guid: e5c610ae941eea74ca9ed6fe571882bb,
         type: 3}
       propertyPath: m_Name
-      value: '[var:1]'
+      value: '[var_1] Variant'
       objectReference: {fileID: 0}
     - target: {fileID: 9111589836242601586, guid: e5c610ae941eea74ca9ed6fe571882bb,
         type: 3}
@@ -166,7 +166,7 @@ PrefabInstance:
         type: 3}
       propertyPath: portraitIcon.texture
       value: 
-      objectReference: {fileID: 2800000, guid: a79378c50eba886448b91df607028c41, type: 3}
+      objectReference: {fileID: 2800000, guid: 2a2d1181a48a6bb4c9340969437cbd9c, type: 3}
     - target: {fileID: 9111589836242601586, guid: e5c610ae941eea74ca9ed6fe571882bb,
         type: 3}
       propertyPath: useExpressions
@@ -206,11 +206,16 @@ PrefabInstance:
         type: 3}
       propertyPath: expressions.Array.data[0].portraitIcon.texture
       value: 
-      objectReference: {fileID: 2800000, guid: 2855f55682c9c4e45a2b4ff40db2d73c, type: 3}
+      objectReference: {fileID: 2800000, guid: 49cdf4312aa91684c8d2796dfdfec949, type: 3}
     - target: {fileID: 9111589836242601586, guid: e5c610ae941eea74ca9ed6fe571882bb,
         type: 3}
       propertyPath: expressions.Array.data[0].portraitIcon.isAnimated
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9111589836242601586, guid: e5c610ae941eea74ca9ed6fe571882bb,
+        type: 3}
+      propertyPath: turnSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9111589836242601587, guid: e5c610ae941eea74ca9ed6fe571882bb,
         type: 3}

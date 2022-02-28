@@ -264,7 +264,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 1
   endAction: 1
-  skipAction: 3
+  skipAction: 4
   skipActionActual: {fileID: 277289032}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -273,8 +273,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 186
-    y: 521
+    x: 188
+    y: 559
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -431,27 +431,6 @@ MonoBehaviour:
   willWaitComplete: 0
   musicAction: 0
   loopingOverlapTime: 0
---- !u!1 &533910907 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3055828322737961412, guid: b8c25f2d9d88830448ed84556167467b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1596612408}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &533910911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533910907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 46022
-  retainInPrefab: 1
-  autoManual: 0
 --- !u!1 &706608935
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,7 +702,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 1
   endAction: 0
-  skipAction: 3
+  skipAction: 4
   skipActionActual: {fileID: 277289032}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -895,7 +874,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 1
   endAction: 0
-  skipAction: 3
+  skipAction: 4
   skipActionActual: {fileID: 277289032}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -904,8 +883,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 315
-    y: 365
+    x: 269
+    y: 412
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -997,145 +976,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   is2D: 0
---- !u!1001 &1596612408
-PrefabInstance:
+--- !u!114 &1590017457
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709804505502788484, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3692082824125534853, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3692082824125534853, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1712487107}
-    - target: {fileID: 3692082824125534853, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_PlaneDistance
-      value: 136.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 3692082824125534853, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7254407992238990619, guid: b8c25f2d9d88830448ed84556167467b,
-        type: 3}
-      propertyPath: m_Name
-      value: SubtitlesCanvas
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b8c25f2d9d88830448ed84556167467b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: ActionMenuState(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 10
+  title: Change state
+  description: Provides various options to show and hide both menus and menu elements.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 1
+  endAction: 0
+  skipAction: 4
+  skipActionActual: {fileID: 277289032}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 493
+    y: 313
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3201929238834549055}
+  changeType: 4
+  removeJournalPageMethod: 0
+  menuToChange: Diary
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &1619028600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1755,6 +1645,7 @@ MonoBehaviour:
   actions:
   - {fileID: 487388275}
   - {fileID: 1209700423}
+  - {fileID: 1590017457}
   - {fileID: 1357289607}
   - {fileID: 277289032}
   isSkippable: 1

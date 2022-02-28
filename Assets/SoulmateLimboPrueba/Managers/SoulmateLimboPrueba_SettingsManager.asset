@@ -46,7 +46,7 @@ MonoBehaviour:
   whenReselectHotspot: 0
   lockCursorOnStart: 1
   hideLockedCursor: 1
-  disableFreeAimWhenDragging: 0
+  disableFreeAimWhenDragging: 1
   runConversationsWithKeys: 0
   clickUpInteractions: 0
   defaultMouseClicks: 1
@@ -103,7 +103,7 @@ MonoBehaviour:
   useFPCamDuringConversations: 1
   onlyInteractWhenCursorUnlocked: 0
   freeAimSmoothSpeed: 50
-  firstPersonMovementSmoothing: 1
+  firstPersonMovementSmoothing: 0
   assumeInputsDefined: 0
   activeInputs:
   - label: (Untitled)
@@ -184,15 +184,36 @@ MonoBehaviour:
   - ID: 4
     audioClip: {fileID: 8300000, guid: 597b37d5b7aef434cad9b05bcd2ff13f, type: 3}
     relativeVolume: 1
+  - ID: 5
+    audioClip: {fileID: 8300000, guid: 6f0f4b91c87f73348a801c6c631d0a7f, type: 3}
+    relativeVolume: 1
+  - ID: 6
+    audioClip: {fileID: 8300000, guid: 367a7e014888e744a9fc2b32714c392f, type: 3}
+    relativeVolume: 0.888
   ambienceStorages:
   - ID: 0
     audioClip: {fileID: 8300000, guid: 81246cf877fb67c46ba910112f1eae67, type: 3}
-    relativeVolume: 1
+    relativeVolume: 0.72
   - ID: 1
     audioClip: {fileID: 8300000, guid: ee7f3e83503f32d44adb703a81bc1a14, type: 3}
     relativeVolume: 1
   - ID: 2
     audioClip: {fileID: 8300000, guid: 4f31aa4bf46020b40a9d7312521e87ce, type: 3}
+    relativeVolume: 1
+  - ID: 3
+    audioClip: {fileID: 8300000, guid: ff451f44c06b31946bd1e6739f1c171f, type: 3}
+    relativeVolume: 1
+  - ID: 4
+    audioClip: {fileID: 8300000, guid: f9380f64b1bcc9e46a539ad1809a122e, type: 3}
+    relativeVolume: 1
+  - ID: 5
+    audioClip: {fileID: 8300000, guid: 38a212ad3ea3cec4db62914e86c8173e, type: 3}
+    relativeVolume: 1
+  - ID: 6
+    audioClip: {fileID: 8300000, guid: 20e09edb956428d428ac2ef8c03d5b7c, type: 3}
+    relativeVolume: 1
+  - ID: 7
+    audioClip: {fileID: 8300000, guid: a5c8f278b493cc149afa773f426178f1, type: 3}
     relativeVolume: 1
   loadAmbienceFadeTime: 1
   crossfadeAmbienceWhenLoading: 1

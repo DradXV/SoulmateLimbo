@@ -379,7 +379,7 @@ RectTransform:
   m_GameObject: {fileID: 4253391202059877722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.51141, y: 1, z: 1}
+  m_LocalScale: {x: 0.8024506, y: 1.5690945, z: 1.5690945}
   m_Children:
   - {fileID: 4253391200943668902}
   m_Father: {fileID: 4253391202594234715}
@@ -387,7 +387,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 181.6, y: 52}
+  m_AnchoredPosition: {x: 181.6, y: 88}
   m_SizeDelta: {x: 59.799988, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4253391202059877726
@@ -698,7 +698,7 @@ RectTransform:
   m_GameObject: {fileID: 4253391202432393417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.51141, y: 1, z: 1}
+  m_LocalScale: {x: 0.8907739, y: 1.7418, z: 1.7418}
   m_Children:
   - {fileID: 4253391202171662321}
   m_Father: {fileID: 4253391202594234715}
@@ -706,7 +706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -178.5, y: 53.3}
+  m_AnchoredPosition: {x: -178.5, y: 90}
   m_SizeDelta: {x: 59.799988, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4253391202432393421
@@ -1061,14 +1061,14 @@ RectTransform:
   m_GameObject: {fileID: 4723491959898842753}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.30273688, y: 1.711855, z: 1.1381835}
+  m_LocalScale: {x: 0.4863468, y: 2.7500951, z: 1.8284918}
   m_Children: []
   m_Father: {fileID: 4253391202594234715}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -181, y: -51.1}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -181, y: 126}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3799620716707038673
@@ -1393,7 +1393,7 @@ GameObject:
   - component: {fileID: 8541967083914286967}
   - component: {fileID: 8010910330760153218}
   - component: {fileID: 1513270730452994698}
-  - component: {fileID: 6691710198264806172}
+  - component: {fileID: 1875968952918446054}
   m_Layer: 5
   m_Name: Mara Diary
   m_TagString: Untagged
@@ -1470,7 +1470,7 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &6691710198264806172
+--- !u!114 &1875968952918446054
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1482,7 +1482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constantID: 11818
+  constantID: 41026
   retainInPrefab: 1
   autoManual: 0
 --- !u!1 &7638599738690752835

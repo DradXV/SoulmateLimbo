@@ -133,7 +133,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 1
   endAction: 0
-  skipAction: 25
+  skipAction: 26
   skipActionActual: {fileID: 4265640254115752897}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -182,6 +182,56 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-6730770226038349517
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: ActionMenuState(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 10
+  title: Change state
+  description: Provides various options to show and hide both menus and menu elements.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 26
+  skipActionActual: {fileID: 4265640254115752897}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 376
+    y: 5301.2007
+    width: 300
+    height: 112
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 5
+  removeJournalPageMethod: 0
+  menuToChange: Diary
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!114 &-4348974471911020518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -456,7 +506,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 25
+  skipAction: 26
   skipActionActual: {fileID: 4265640254115752897}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -465,8 +515,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 5341.2007
+    x: 326
+    y: 5201.2007
     width: 300
     height: 112
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -568,7 +618,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 25
+  skipAction: 26
   skipActionActual: {fileID: 4265640254115752897}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -640,6 +690,7 @@ MonoBehaviour:
   - {fileID: 616282442329542057}
   - {fileID: 5635107806139046744}
   - {fileID: -2246382741209613907}
+  - {fileID: -6730770226038349517}
   - {fileID: -7369579705282349551}
   - {fileID: 1868198141924493734}
   - {fileID: 4265640254115752897}
@@ -676,7 +727,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 25
+  skipAction: 26
   skipActionActual: {fileID: 4265640254115752897}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -844,7 +895,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 1
   endAction: 0
-  skipAction: 25
+  skipAction: 26
   skipActionActual: {fileID: 4265640254115752897}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -853,8 +904,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 308
-    y: 5519.2007
+    x: 371
+    y: 5576.2007
     width: 300
     height: 154
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1017,7 +1068,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 1
-  skipAction: 25
+  skipAction: 26
   skipActionActual: {fileID: 4265640254115752897}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1229,7 +1280,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 25
+  skipAction: 26
   skipActionActual: {fileID: 4265640254115752897}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1361,7 +1412,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 25
+  skipAction: 26
   skipActionActual: {fileID: 4265640254115752897}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
